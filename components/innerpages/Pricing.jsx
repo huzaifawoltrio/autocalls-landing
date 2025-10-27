@@ -47,10 +47,10 @@ export default function Pricing() {
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
-                Simple, scalable pricing.
+                Plans that scale with your business
               </h1>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                No extra charges. No hidden fees.
+                Choose the perfect plan for your AI voice automation needs.
               </p>
               <ul
                 className="uc-switcher-nav nav-x gap-0 p-narrow border rounded-2 fs-7 fw-medium"
@@ -77,7 +77,7 @@ export default function Pricing() {
             <div className="uc-switcher pricing-switcher mt-4">
               <div className="uc-active">
                 <div
-                  className="row child-cols-12 sm:child-cols-6 xl:child-cols-4 col-match justify-center g-2 lg:g-4"
+                  className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 xl:child-cols-4 col-match justify-center g-2 lg:g-4"
                   data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 400});"
                 >
                   {tiers3.map((tier, index) => (
@@ -105,16 +105,18 @@ export default function Pricing() {
                               {tier.priceDetails}
                             </span>
                             <div className="vstack gap-1 justify-center text-center mt-3">
-                              <Link
-                                href={`/sign-up`}
+                              <a
+                                href={tier.linkUrl || "https://app.centrecall.ai/register"}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className={`btn btn-md sm:btn-sm lg:btn-md ${
-                                  tier.title === "Enterprise"
-                                    ? "btn-dark"
-                                    : "btn-primary"
+                                  tier.isPopular
+                                    ? "btn-primary"
+                                    : "btn-dark"
                                 } text-white`}
                               >
                                 {tier.linkText}
-                              </Link>
+                              </a>
                               <span className="fs-7 opacity-70 min-h-24px">
                                 {tier.linkSubtext}
                               </span>
@@ -124,13 +126,7 @@ export default function Pricing() {
                         <div className="panel">
                           <div className="panel vstack gap-2">
                             <span className="fs-6 fw-bold dark:text-white">
-                              {tier.title === "Essentials"
-                                ? "Key features:"
-                                : `Everything in ${
-                                    tier.title === "Business"
-                                      ? "Essentials"
-                                      : "Business"
-                                  }, plus:`}
+                              Key features:
                             </span>
                             {tier.features.map((feature, idx) => (
                               <div key={idx} className="hstack gap-1 fs-7">
@@ -150,7 +146,7 @@ export default function Pricing() {
               className="text-center text-gray-900 dark:text-white text-opacity-70 mt-4 sm:mt-6 xl:mt-8"
               data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 0;"
             >
-              Prices exclude any applicable taxes.
+              Save 2 months with yearly billing on all plans.
             </p>
           </div>
         </div>

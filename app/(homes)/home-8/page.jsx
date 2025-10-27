@@ -13,9 +13,9 @@ import Tools from "@/components/homes/home-8/Tools";
 import React from "react";
 export const metadata = {
   title:
-    "Home 8 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "CenterCall - AI Voice Agents for Customer Support | Never Miss a Call",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Create no-code AI phone call systems with CenterCall. Automate customer support, appointment booking, and sales calls with intelligent AI voice agents in 100+ languages.",
 };
 export default function page() {
   return (
@@ -33,7 +33,6 @@ export default function page() {
               <Pricing />
               <Testimonials />
               <Faqs />
-              <Blogs />
               <Cta />
             </div>
             <Footer7 />

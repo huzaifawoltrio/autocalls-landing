@@ -25,9 +25,9 @@ export default function Pricing() {
                   Pricing
                 </span>
                 <h2 className="h4 sm:h3 lg:h2 m-0 text-center max-w-650px mx-auto">
-                  Affordable prices and scalable plans{" "}
+                  Plans that scale{" "}
                   <span className="text-tertiary dark:text-primary">
-                    to fit any business size
+                    with your business
                   </span>
                 </h2>
               </div>
@@ -45,7 +45,7 @@ export default function Pricing() {
                     onClick={() => setIsYearly(false)}
                   >
                     <a className="d-flex justify-center text-dark">
-                      Pay monthly
+                      Monthly
                     </a>
                   </li>
                   <li
@@ -53,7 +53,7 @@ export default function Pricing() {
                     onClick={() => setIsYearly(true)}
                   >
                     <a className="d-flex justify-center text-dark">
-                      Pay yearly
+                      Yearly <span className="ms-1 text-primary">Save 2 months</span>
                     </a>
                   </li>
                 </ul>
@@ -73,7 +73,7 @@ export default function Pricing() {
                         },
                         640: { slidesPerView: 2.1, spaceBetween: 16 },
                         768: { slidesPerView: 3, spaceBetween: 16 },
-                        1024: { slidesPerView: 3, spaceBetween: 24 },
+                        1024: { slidesPerView: 4, spaceBetween: 24 },
                       }}
                       observeSlideChildren
                       className="swiper overflow-unset lg:overflow-hidden swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden"
@@ -89,14 +89,14 @@ export default function Pricing() {
                             </p>
                             <div className="pricing-box-price hstack gap-narrow items-end mt-2">
                               <h4 className="price h1 lg:display-5 m-0 text-inherit">
-                                ${isYearly ? plan.price * 10 : plan.price}
+                                ${isYearly ? (plan.yearlyPrice || plan.price) : plan.price}
                               </h4>
                               <span className="duration fs-7 opacity-70">
-                                / {isYearly ? "year" : "month"}
+                                / month
                               </span>
                             </div>
                             <p className="pricing-box-bill fs-7 opacity-70">
-                              Billed once {isYearly ? "yearly" : "monthly"}
+                              Billed {isYearly ? "yearly" : "monthly"}
                             </p>
                             <hr />
                             <ul className="nav-y gap-1 fs-6">
@@ -117,19 +117,14 @@ export default function Pricing() {
                               ))}
                             </ul>
                             <div className="pricing-box-cta vstack gap-1 justify-center text-center mt-4">
-                              <Link
+                              <a
                                 href={plan.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className={`btn btn-md ${plan.buttonClass} border`}
                               >
-                                {plan.title === "Business"
-                                  ? "Get in touch"
-                                  : "Try for free"}
-                              </Link>
-                              {plan.title !== "Business" && (
-                                <span className="fs-7 opacity-70">
-                                  No credit card required!
-                                </span>
-                              )}
+                                Subscribe now
+                              </a>
                             </div>
                           </div>
                         </SwiperSlide>
@@ -138,7 +133,7 @@ export default function Pricing() {
                   </li>
                 </div>
                 <p className="text-center mt-4 lg:mt-6">
-                  *Yearly discount available on select plans.
+                  Save 2 months with yearly billing on all plans.
                 </p>
               </div>
               <a

@@ -43,11 +43,10 @@ export default function Contact1() {
           >
             <div className="vstack items-center gap-2 lg:gap-4 mb-4 sm:mb-6 lg:mb-8 max-w-750px mx-auto text-center">
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
-                Let's get in touch.
+                Let's Transform Your Phone Communications
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                Feel free to reach out to us using the options below, and our
-                dedicated team will respond to your inquiries promptly.
+                Ready to automate your calls with AI voice agents? Get in touch with our team for a demo, technical support, or to discuss how CenterCall can help your business.
               </p>
             </div>
             <div className="panel rounded-3 overflow-hidden bg-secondary dark:bg-gray-800">
@@ -75,10 +74,10 @@ export default function Contact1() {
                           </p>
                           <div className="vstack gap-0">
                             <p className="fs-6 lg:fs-5 fw-medium">
-                              David Larry
+                              Sarah Mitchell
                             </p>
                             <span className="fs-7 opacity-80">
-                              Founder &amp; CEO
+                              Operations Director
                             </span>
                           </div>
                         </div>
@@ -92,8 +91,7 @@ export default function Contact1() {
                     className="vstack gap-2 p-3 sm:p-6 xl:p-8"
                   >
                     <p className="fs-6 text-dark dark:text-white text-opacity-70 mb-2">
-                      Have a question or feedback? Fill out the form below, and
-                      we'll get back to you as soon as possible.
+                      Interested in CenterCall? Fill out the form below and our team will get back to you within 24 hours.
                     </p>
                     <div className="row child-cols-12 sm:child-cols-6 g-2">
                       <div>
@@ -132,7 +130,7 @@ export default function Contact1() {
                     </button>
                     <p className="text-center">
                       Or drop us a message via
-                      <a className="uc-link" href="mailto:hello@lexend.co">
+                      <a className="uc-link" href="mailto:hello@centercall.ai">
                         email
                       </a>
                       .

@@ -153,43 +153,42 @@ export const features3 = [
 
 export const features4 = [
   {
-    icon: "unicon-document",
-    title: "Proposals",
+    icon: "unicon-phone",
+    title: "Inbound Call Handling",
     description:
-      "Share Tools in minutes with pre-built, customizable templates.",
+      "Answer every customer call instantly with AI agents that never sleep, never take breaks, and handle unlimited parallel calls.",
   },
   {
-    icon: "unicon-model",
-    title: "Quotes",
+    icon: "unicon-calling",
+    title: "Outbound Campaigns",
     description:
-      "Find out in real time when they’re opened, viewed and signed.",
+      "Launch automated outbound calling campaigns for sales, follow-ups, and customer engagement at scale.",
   },
   {
-    icon: "unicon-task-approved",
-    title: "Contracts",
+    icon: "unicon-calendar",
+    title: "Appointment Scheduling",
     description:
-      "Use our native CRM integrations to pull customer data into your Tools fast.",
+      "Automatically book, reschedule, and send reminders for appointments with live calendar integration.",
   },
   {
-    icon: "unicon-touch-interaction",
-    title: "eSignatures",
+    icon: "unicon-user-check",
+    title: "Lead Qualification",
     description:
-      "Keep your data secure with our legally-binding e-Signature software.",
+      "Pre-qualify leads automatically before routing to your sales team, saving time and increasing conversion rates.",
   },
   {
-    icon: "unicon-sub-volume",
-    title: "Forms",
+    icon: "unicon-globe",
+    title: "Multi-Language Support",
     description:
-      "Share via direct link or by embedding them on your website, no coding necessary.",
+      "Communicate with customers in 100+ languages with natural-sounding voices and accurate translations.",
   },
   {
-    icon: "unicon-currency",
-    title: "Payments",
+    icon: "unicon-microphone",
+    title: "Voice Cloning",
     description:
-      "Collect them instantly right from your contract, while increasing your close rate by 36%.",
+      "Clone your own voice or create custom brand voices that maintain consistency across all customer interactions.",
   },
 ];
-
 export const featureItems = [
   {
     imageSrc: "/assets/images/template/home-four-feature-01.png",
@@ -332,37 +331,37 @@ export const features6 = [
   {
     id: 1,
     imgSrc: "/assets/images/template/feature-01.svg",
-    imgAlt: "Share tools quickly and confidently in minutes",
-    title: "Share tools quickly and confidently in minutes",
+    imgAlt: "Natural Voice Conversations",
+    title: "Natural Voice Conversations",
     description:
-      "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.",
+      "Our AI voice agents sound remarkably human with natural speech patterns, appropriate pauses, and emotional intelligence. They understand context, handle interruptions gracefully, and adapt their tone to match the conversation flow.",
     link: null,
   },
   {
     id: 2,
     imgSrc: "/assets/images/template/feature-02.svg",
-    imgAlt: "Connect every part of your entire business",
-    title: "Connect every part of your entire business",
+    imgAlt: "Seamless System Integration",
+    title: "Seamless System Integration",
     description:
-      "Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.",
-    link: { text: "See all integrations", href: "#" },
+      "Connect CenterCall with your existing tools and workflows. Native integrations with CRMs, calendars, and business systems ensure your AI agents have real-time access to customer data and can take actions automatically.",
+    link: { text: "See all integrations", href: "/page-integrations" },
   },
   {
     id: 3,
     imgSrc: "/assets/images/template/feature-03.svg",
-    imgAlt: "Maintain compliance and control your apps",
-    title: "Maintain compliance and control your apps",
+    imgAlt: "Advanced Call Analytics",
+    title: "Advanced Call Analytics",
     description:
-      "Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks, and lock all legal information to prevent costly mistakes.",
+      "Get deep insights into every conversation with comprehensive analytics. Track call duration, sentiment analysis, conversion rates, and identify areas for improvement with detailed transcripts and performance metrics.",
     link: null,
   },
   {
     id: 4,
     imgSrc: "/assets/images/template/feature-04.svg",
-    imgAlt: "Review quickly and confidently",
-    title: "Review quickly and confidently",
+    imgAlt: "Smart Call Routing & Escalation",
+    title: "Smart Call Routing & Escalation",
     description:
-      "Get real-time access to approvals, comments, and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.",
+      "AI agents intelligently route calls based on customer needs, urgency, and availability. Seamlessly escalate complex issues to human agents with full context transfer, ensuring no information is lost.",
     link: null,
   },
 ];
@@ -444,15 +443,15 @@ export const features7 = [
 export const features8 = [
   {
     imgSrc: "/assets/images/features/home-8-feature-01.png",
-    title: "Seamless integrations with your existing tools",
+    title: "Automate appointment booking & reminders",
   },
   {
     imgSrc: "/assets/images/features/home-8-feature-05.png",
-    title: "Intuitive dashboard for at-a-glance insights",
+    title: "Automate customer support inquiries",
   },
   {
     imgSrc: "/assets/images/features/home-8-feature-06.png",
-    title: "Automated data analysis and reporting",
+    title: "Cold calling for sales teams",
   },
 ];
 
@@ -460,32 +459,32 @@ export const features9 = [
   {
     order: "order-1 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-01.svg",
-    title: "Fast and Reliable",
+    title: "Outbound Sales Calls",
   },
   {
     order: "order-0",
     icon: "/assets/images/custom-icons/home-8-icon-02.svg",
-    title: "Discover Data Everywhere",
+    title: "Lead Prequalification",
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-03.svg",
-    title: "Enrich Data with Context",
+    title: "Surveys and Feedback",
   },
   {
     order: "order-1 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-07.svg",
-    title: "Risk Management",
+    title: "Confirmations & Follow-up",
   },
   {
     order: "order-3 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-05.svg",
-    title: "Privacy Compliance",
+    title: "Renewals and Upselling",
   },
   {
     order: "order-2 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-06.svg",
-    title: "Third-Party Management",
+    title: "Custom Business Scenarios",
   },
 ];
 

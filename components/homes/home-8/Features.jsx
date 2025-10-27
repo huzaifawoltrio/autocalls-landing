@@ -19,14 +19,13 @@ export default function Features() {
                 Features
               </span>
               <h2 className="h3 lg:h2 m-0">
-                We’ve got you covered throughout the{" "}
+                Powerful features for{" "}
                 <span className="text-tertiary dark:text-primary">
-                  worker lifecycle
+                  every business need
                 </span>
               </h2>
               <p className="fs-6 xl:fs-5 xl:px-8">
-                IT and HR teams can automate onboarding, offboarding, and
-                everything in between from within Lexend.
+                From appointment booking to cold calling, CenterCall automates your phone communications with intelligent AI voice agents.
               </p>
             </div>
             <div
@@ -62,12 +61,10 @@ export default function Features() {
                 <div className="panel overflow-hidden bg-primary-300 text-gray-900 rounded-2 lg:rounded-3">
                   <div className="panel vstack items-center text-center gap-2 p-3 lg:p-4 xl:p-6">
                     <h4 className="h4 m-0 text-inherit">
-                      Scalable plans to fit any business size
+                      100+ languages to choose from
                     </h4>
                     <p className="fs-6 md:fs-5 lg:fs-4 m-0">
-                      Maximize your productivity by connecting our SaaS solution
-                      to the other business apps you rely on, creating a
-                      frictionless workflow.
+                      CenterCall supports over 100 languages and diverse accents to address global audiences. Each language is equipped with hundreds of natural-sounding voice options, while also allowing you to clone your own voice.
                     </p>
                   </div>
                   <div className="panel px-3 lg:px-4 xl:px-6 mb-2 lg:mb-5">
@@ -84,18 +81,16 @@ export default function Features() {
                 <div className="panel overflow-hidden min-h-450px bg-tertiary text-white rounded-2 lg:rounded-3 uc-dark">
                   <div className="panel vstack items-center text-center gap-2 p-3 md:p-4 xl:p-6">
                     <h4 className="h4 m-0 text-inherit">
-                      Dedicated customer support
+                      24/7 Availability & Parallel Calls
                     </h4>
                     <p className="fs-6 md:fs-5 lg:fs-4 m-0 xl:px-4 text-center">
-                      Rely on our knowledgeable support team to help you get the
-                      most out of our platform. We're available to answer
-                      questions and provide guidance.
+                      Instantly answer customer support phone calls - zero waiting time, zero queue, zero customer frustrations. Real-time interaction with your systems and support procedure documents.
                     </p>
                     <a
                       href="#"
                       className="btn btn-sm btn-primary border px-2 mt-2"
                     >
-                      <span>Contact us</span>
+                      <span>Get started</span>
                       <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                     </a>
                   </div>

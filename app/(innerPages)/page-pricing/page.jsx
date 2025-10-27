@@ -1,6 +1,5 @@
-import Header2 from "@/components/headers/Header2";
-
-import Footer2 from "@/components/footers/Footer2";
+import Header7 from "@/components/headers/Header7";
+import Footer7 from "@/components/footers/Footer7";
 
 import Faq from "@/components/homes/home-2/Faq";
 import Testimonials from "@/components/homes/home-3/Testimonials";
@@ -9,16 +8,18 @@ import Cta from "@/components/innerpages/features/Cta";
 import Pricing from "@/components/innerpages/Pricing";
 export const metadata = {
   title:
-    "Pricing || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Pricing - CenterCall | AI Voice Agent Plans for Every Business",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Choose the perfect CenterCall plan for your business. From Starter to Agency Whitelabel, automate your phone communications with AI voice agents. Save 2 months with yearly billing.",
 };
 export default function PricingPage() {
   return (
     <>
-      <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
-        <Header2 />
-        <div id="wrapper" className="wrap">
+      <div className="theme-4">
+        <div className="page-wrapper">
+          <div className="bp-xs bp-sm bp-md bp-lg dom-ready bp-xxl-max bp-xl uni-body panel uni-body panel bg-white text-tertiary-900 dark:bg-tertiary-800 dark:text-tertiary-200 overflow-x-hidden disable-cursor">
+            <Header7 />
+            <div id="wrapper" className="wrap">
           <Pricing />
           {/* <div className="pt-6 xl:pt-9"></div> */}
           <Faq />
@@ -45,8 +46,10 @@ export default function PricingPage() {
             </div>
           </div>
           <Cta />
+            </div>
+            <Footer7 />
+          </div>
         </div>
-        <Footer2 />
       </div>
     </>
   );

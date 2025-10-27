@@ -1,6 +1,6 @@
-import Header2 from "@/components/headers/Header2";
+import Header7 from "@/components/headers/Header7";
 
-import Footer2 from "@/components/footers/Footer2";
+import Footer7 from "@/components/footers/Footer7";
 
 import Faq from "@/components/homes/home-2/Faq";
 import Testimonials from "@/components/homes/home-3/Testimonials";
@@ -9,16 +9,18 @@ import Cta from "@/components/innerpages/features/Cta";
 import Integrations from "@/components/innerpages/Integrations";
 export const metadata = {
   title:
-    "Integrations || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Integrations - CenterCall | Connect with 250+ Business Tools",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Integrate CenterCall AI voice agents with HubSpot, GoHighLevel, Zoho, Calendly, Cal.com, and 250+ more tools. No-code platform for seamless automation.",
 };
 export default function IntegrationPage() {
   return (
     <>
-      <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
-        <Header2 />
-        <div id="wrapper" className="wrap">
+      <div className="theme-4">
+        <div className="page-wrapper">
+          <div className="bp-xs bp-sm bp-md bp-lg dom-ready bp-xxl-max bp-xl uni-body panel uni-body panel bg-white text-tertiary-900 dark:bg-tertiary-800 dark:text-tertiary-200 overflow-x-hidden disable-cursor">
+            <Header7 />
+            <div id="wrapper" className="wrap">
           <Integrations />
           {/* <div className="pt-6 xl:pt-9"></div> */}
           <Faq />
@@ -32,7 +34,7 @@ export default function IntegrationPage() {
                 className="h6 sm:h5 text-center mb-4 sm:mb-6 xl:mb-8"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 200;"
               >
-                Trusted by well-known brands.
+                Trusted by businesses worldwide to automate their phone communications.
               </h5>
               <div
                 className="block-panel panel"
@@ -45,8 +47,10 @@ export default function IntegrationPage() {
             </div>
           </div>
           <Cta />
+            </div>
+            <Footer7 />
+          </div>
         </div>
-        <Footer2 />
       </div>
     </>
   );

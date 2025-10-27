@@ -19,11 +19,9 @@ export default function Tools() {
               <span className="fs-7 fw-medium py-narrow px-2 border rounded-pill">
                 Integrations
               </span>
-              <h2 className="h3 lg:h2 m-0">Get more value from your tools</h2>
+              <h2 className="h3 lg:h2 m-0">Integrate with popular tools using our no-code platform</h2>
               <p className="fs-6 xl:fs-5 xl:px-8">
-                Connect your tools, connect your teams. With over 200 apps
-                already available in our directory, your team’s favourite tools
-                are just a click away.
+                Easily manage AI voice agents without programming skills. Integrate with HubSpot, GoHighLevel, Zoho, Cal.com, Calendly & +250 more using drag and drop.
               </p>
             </div>
             <div

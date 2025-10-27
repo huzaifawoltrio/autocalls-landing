@@ -1,6 +1,5 @@
-import Header2 from "@/components/headers/Header2";
-
-import Footer2 from "@/components/footers/Footer2";
+import Header7 from "@/components/headers/Header7";
+import Footer7 from "@/components/footers/Footer7";
 import Hero from "@/components/innerpages/features/Hero";
 import KeyFeatures from "@/components/innerpages/features/KeyFeatures";
 import Faq from "@/components/homes/home-2/Faq";
@@ -9,16 +8,18 @@ import Cta from "@/components/innerpages/features/Cta";
 import Brands2 from "@/components/common/Brands2";
 export const metadata = {
   title:
-    "Features || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Features - CenterCall | AI Voice Agent Capabilities & Integrations",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Explore CenterCall's powerful AI voice features: natural conversations, multi-language support, voice cloning, smart call routing, and seamless integrations with your business tools.",
 };
 export default function FeaturesPage() {
   return (
     <>
-      <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
-        <Header2 />
-        <div id="wrapper" className="wrap">
+      <div className="theme-4">
+        <div className="page-wrapper">
+          <div className="bp-xs bp-sm bp-md bp-lg dom-ready bp-xxl-max bp-xl uni-body panel uni-body panel bg-white text-tertiary-900 dark:bg-tertiary-800 dark:text-tertiary-200 overflow-x-hidden disable-cursor">
+            <Header7 />
+            <div id="wrapper" className="wrap">
           <Hero />
           <KeyFeatures />
           <div className="pt-6 xl:pt-9"></div>
@@ -33,7 +34,7 @@ export default function FeaturesPage() {
                 className="h6 sm:h5 text-center mb-4 sm:mb-6 xl:mb-8"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 200;"
               >
-                Trusted by well-known brands.
+                Trusted by businesses worldwide to automate their phone communications.
               </h5>
               <div
                 className="block-panel panel"
@@ -46,8 +47,10 @@ export default function FeaturesPage() {
             </div>
           </div>
           <Cta />
+            </div>
+            <Footer7 />
+          </div>
         </div>
-        <Footer2 />
       </div>
     </>
   );

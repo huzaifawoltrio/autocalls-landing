@@ -25,9 +25,9 @@ export default function Testimonials() {
                 <h2 className="h4 sm:h3 lg:h2 m-0 text-center max-w-650px mx-auto">
                   See what our{" "}
                   <span className="text-tertiary dark:text-primary">
-                    happy users
+                    customers
                   </span>{" "}
-                  are sharing about us!
+                  say about CenterCall!
                 </h2>
               </div>
               <div className="panel w-100">

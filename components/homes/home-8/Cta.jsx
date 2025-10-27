@@ -98,13 +98,13 @@ export default function Cta() {
                 Get started today!
               </span>
               <h2 className="h2 xl:display-5 m-0 text-center">
-                Seamless integrations with your{" "}
+                Ready to automate your{" "}
                 <span className="text-tertiary dark:text-primary">
-                  existing tools
+                  phone communications?
                 </span>
               </h2>
               <p className="fs-5 lg:fs-4">
-                See how we help your team solve today’s biggest challenges.
+                Join businesses worldwide using CenterCall to never miss a call and convert more leads.
               </p>
               <div
                 className="panel vstack items-center gap-1 max-w-400px lg:max-w-750px mx-auto text-center mt-2 xl:mt-4"
@@ -115,7 +115,7 @@ export default function Cta() {
                     href="#"
                     className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
                   >
-                    <span>Start your free trial</span>
+                    <span>Create your agent in 60 seconds</span>
                   </a>
                 </div>
                 <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white sm-flex-column">

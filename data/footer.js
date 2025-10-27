@@ -249,32 +249,30 @@ export const footerLinks5 = [
 export const footerLinks6 = [
   {
     links: [
-      { text: "How it works", href: "#how_it_works" },
-      { text: "Features", href: "#features" },
-      { text: "Key Goods", href: "#key_features" },
-      { text: "Pro Elements", href: "#builder_elements" },
-      { text: "Pricing", href: "#pricing" },
-      { text: "Changelog", href: "#" },
+      { text: "Features", href: "/page-features", isLink: true },
+      { text: "Pricing", href: "/page-pricing", isLink: true },
+      { text: "Integrations", href: "/page-integrations", isLink: true },
+      { text: "Contact", href: "/page-contact", isLink: true },
+      { text: "FAQ", href: "#faq", isLink: false },
     ],
   },
   {
     links: [
-      { text: "About us", href: "/page-about", isLink: true },
-      { text: "Careers", href: "/page-career", isLink: true },
-      { text: "Press", href: "#", isLink: false },
-      { text: "News", href: "/blog", isLink: true },
-      { text: "Media kit", href: "#", isLink: false },
-      { text: "Contact", href: "/page-contacct", isLink: true },
+      { text: "Inbound Calls", href: "#main_features", isLink: false },
+      { text: "Outbound Campaigns", href: "#key_features", isLink: false },
+      { text: "Appointment Scheduling", href: "#main_features", isLink: false },
+      { text: "Voice Cloning", href: "#main_features", isLink: false },
+      { text: "Multi-Language", href: "#main_features", isLink: false },
     ],
   },
   {
     links: [
-      { text: "Blog", href: "/blog", isLink: true },
-      { text: "Newsletter", href: "#", isLink: false },
-      { text: "Events", href: "#", isLink: false },
-      { text: "Help center", href: "#", isLink: false },
-      { text: "Tutorials", href: "#", isLink: false },
-      { text: "Support", href: "#", isLink: false },
+      { text: "Sign Up", href: "https://app.centrecall.ai/register", isLink: false, external: true },
+      { text: "Log In", href: "https://app.centrecall.ai/login", isLink: false, external: true },
+      { text: "Schedule Demo", href: "/page-contact", isLink: true },
+      { text: "Support", href: "/page-contact", isLink: true },
+      { text: "Privacy Policy", href: "#", isLink: false },
+      { text: "Terms of Service", href: "#", isLink: false },
     ],
     className: "d-none lg:d-block", // Additional class for the third section
   },

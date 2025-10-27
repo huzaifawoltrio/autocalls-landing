@@ -17,14 +17,13 @@ export default function Features2() {
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <span className="fs-7 fw-medium py-narrow px-2 border rounded-pill">
-                Solutions
+                Use Cases
               </span>
               <h2 className="h3 lg:h2 m-0">
-                End-to-End data management Solutions
+                Endless use cases for your business
               </h2>
               <p className="fs-6 xl:fs-5 xl:px-8">
-                Offers a unified platform that fosters innovation while
-                providing end-to-end data management.
+                From outbound sales calls to inbound customer support, CenterCall handles it all with intelligent AI voice agents.
               </p>
             </div>
             <div

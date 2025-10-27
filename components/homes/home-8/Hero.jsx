@@ -31,18 +31,17 @@ export default function Hero() {
                         data-uc-splitext="types: 'chars'"
                         // data-anime="targets: > *; translateY: [-5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 250; delay: anime.stagger(50);"
                       >
-                        Drive growth{" "}
+                        AI voice agents{" "}
                       </span>
-                      with our <br className="d-none lg:d-block" />
-                      cutting-edge SaaS platform
+                      for <br className="d-none lg:d-block" />
+                      customer support
                     </h1>
                     <p
                       className="fs-6 xl:fs-3 xl:px-10 dark:text-white text-opacity-70"
                       data-uc-splitext="types: 'words'"
                       // data-anime="targets: > *; translateX: [5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: anime.stagger(50, {start:650});"
                     >
-                      Streamline your workflows, boost productivity, and drive
-                      growth with our cutting-edge SaaS platform.
+                      Create no-code AI phone call systems with our AI voice agents: never miss a call again and convert more leads. Voice AI tech is ready to handle phone calls and behave like real people. Be among the first to take advantage 🚀
                     </p>
                     <div
                       className="vstack md:hstack justify-center gap-1 my-1 lg:my-3"
@@ -52,7 +51,7 @@ export default function Hero() {
                         href="#"
                         className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
                       >
-                        <span>Start your free trial</span>
+                        <span>Create your agent in 60 seconds</span>
                       </a>
                     </div>
                     <div

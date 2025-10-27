@@ -16,7 +16,7 @@ export default function Brands() {
               data-anime="onview: -200; translateY: [-16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 350;"
             >
               <h5 className="h5 lg:h4 m-0">
-                Trusted by over most popular companies worldwide
+                Trusted by businesses worldwide to automate their phone communications
               </h5>
               <div className="panel">
                 <div className="row child-cols items-center text-center">
