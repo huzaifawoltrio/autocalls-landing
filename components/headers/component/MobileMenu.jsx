@@ -1,17 +1,14 @@
 "use client";
 import { useContextElement } from "@/context/Context";
-import { icons, menuItems } from "@/data/menu";
 import { closeMobileMenu } from "@/utlis/toggleMobileMenu";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 export default function MobileMenu() {
   const { isDark, handleToggle } = useContextElement();
   const pathname = usePathname();
-  const [activeParent1, setActiveParent1] = useState(-1);
-  const [activeParent2, setActiveParent2] = useState(-1);
   const elementRef = useRef(null);
   const containerRef = useRef(null);
 
@@ -38,33 +35,6 @@ export default function MobileMenu() {
     closeMobileMenu();
   }, [pathname]);
 
-  const isMenuActive = (menu) => {
-    let isActive = false;
-    if (menu.href) {
-      if (pathname.split("/")[1] == menu.href?.split("/")[1]) {
-        isActive = true;
-      }
-    }
-    if (menu.subItems) {
-      menu.subItems.forEach((el) => {
-        if (el.href) {
-          if (pathname.split("/")[1] == el.href?.split("/")[1]) {
-            isActive = true;
-          }
-        }
-        if (el.subItems) {
-          el.subItems.map((elm) => {
-            if (elm.href) {
-              if (pathname.split("/")[1] == elm.href?.split("/")[1]) {
-                isActive = true;
-              }
-            }
-          });
-        }
-      });
-    }
-    return isActive;
-  };
   return (
     <div
       ref={containerRef}
@@ -85,14 +55,14 @@ export default function MobileMenu() {
           <div className="uc-logo">
             <Link
               href={`/`}
-              className="h5 text-none text-gray-900 dark:text-white"
+              className="panel text-none"
+              style={{ width: 140 }}
             >
               <Image
-                className="w-32px"
-                alt="Lexend"
-                src="/assets/images/common/logo-mark.svg"
-                width="34"
-                height="34"
+                alt="CenterCall"
+                src="/assets/images/CentreCall.png"
+                width={222}
+                height={58}
               />
             </Link>
           </div>
@@ -126,131 +96,67 @@ export default function MobileMenu() {
             hidden=""
           />
           <ul className="nav-y gap-narrow fw-medium fs-6 uc-nav" data-uc-nav="">
-            {menuItems.map((item, index) => (
-              <li
-                key={index}
-                className={`${item.subItems ? "uc-parent" : ""} ${
-                  activeParent1 == index ? "active" : ""
-                }`}
+            <li>
+              <Link
+                className={pathname === "/" ? "menuActive" : ""}
+                href={`/`}
               >
-                {item.href ? (
-                  <Link
-                    className={isMenuActive(item) ? "menuActive" : ""}
-                    href={item.href}
-                  >
-                    {item.label}
-                  </Link>
-                ) : (
-                  <>
-                    <a
-                      className={isMenuActive(item) ? "menuActive" : ""}
-                      onClick={() =>
-                        setActiveParent1((pre) => (pre == index ? -1 : index))
-                      }
-                    >
-                      {item.label}
-                    </a>
-                    {item.subItems && (
-                      <ul
-                        className={`uc-nav-sub ${
-                          activeParent1 == index ? "active" : ""
-                        }`}
-                      >
-                        {item.subItems.map((subItem, index2) => (
-                          <li
-                            key={index2}
-                            className={`${!subItem.href ? "uc-parent" : ""}  ${
-                              activeParent2 == index2 ? "active" : ""
-                            }`}
-                            role="presentation"
-                          >
-                            {subItem.href ? (
-                              <Link
-                                className={
-                                  isMenuActive(subItem) ? "menuActive" : ""
-                                }
-                                href={subItem.href}
-                              >
-                                {subItem.label}
-                              </Link>
-                            ) : (
-                              <>
-                                <a
-                                  className={
-                                    isMenuActive(subItem) ? "menuActive" : ""
-                                  }
-                                  onClick={() =>
-                                    setActiveParent2((pre) =>
-                                      pre == index2 ? -1 : index2
-                                    )
-                                  }
-                                >
-                                  {subItem.label}
-                                </a>
-                                {subItem.subItems && (
-                                  <ul
-                                    className={`uc-nav-sub ${
-                                      activeParent2 == index2 ? "active" : ""
-                                    }`}
-                                  >
-                                    {subItem.subItems.map((subItem, index3) => (
-                                      <li
-                                        key={index3}
-                                        className={
-                                          !subItem.href ? "uc-parent" : ""
-                                        }
-                                        role="presentation"
-                                      >
-                                        {subItem.href ? (
-                                          <Link
-                                            className={
-                                              isMenuActive(subItem)
-                                                ? "menuActive"
-                                                : ""
-                                            }
-                                            href={subItem.href}
-                                          >
-                                            {subItem.label}
-                                          </Link>
-                                        ) : (
-                                          <></>
-                                        )}
-                                      </li>
-                                    ))}
-                                  </ul>
-                                )}
-                              </>
-                            )}
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </>
-                )}
-              </li>
-            ))}
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={pathname === "/page-pricing" ? "menuActive" : ""}
+                href={`/page-pricing`}
+              >
+                Pricing
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={pathname === "/page-features" ? "menuActive" : ""}
+                href={`/page-features`}
+              >
+                Features
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={pathname === "#" ? "menuActive" : ""}
+                href={`#`}
+              >
+                Demo
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={pathname === "/page-contact" ? "menuActive" : ""}
+                href={`/page-contact`}
+              >
+                Contact Us
+              </Link>
+            </li>
             <li className="hr opacity-10 my-1" />
             <li>
-              <Link href={`/sign-up`}>Create an account</Link>
+              <a
+                href="https://app.centrecall.ai/login"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Log in
+              </a>
             </li>
             <li>
-              <Link href={`/sign-in`}>Log in</Link>
-            </li>
-            <li>
-              <a href="https://themeforest.net/user/ib-themes/portfolio">
-                Buy Template
+              <a
+                href="https://app.centrecall.ai/register"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sign up
               </a>
             </li>
           </ul>
-          <ul className="social-icons nav-x mt-4">
-            <li>
-              {icons.map((icon, index) => (
-                <a key={index} href={icon.href}>
-                  <i className={icon.iconClass} />
-                </a>
-              ))}
-            </li>
-          </ul>
+
           <div
             className="py-2 hstack gap-2 mt-4 bg-white dark:bg-gray-900 uc-sticky uc-active uc-sticky-fixed"
             data-uc-sticky="position: bottom"

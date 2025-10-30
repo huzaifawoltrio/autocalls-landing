@@ -74,8 +74,8 @@ export default function RootLayout({ children }) {
               delay: animeSettings.delay
                 ? animeSettings.delay.includes(",")
                   ? anime.stagger(animeSettings.delay.split(",")[0] / 1, {
-                      start: animeSettings.delay.split(",")[1] / 1,
-                    })
+                    start: animeSettings.delay.split(",")[1] / 1,
+                  })
                   : animeSettings.delay / 1
                 : 0,
             });
