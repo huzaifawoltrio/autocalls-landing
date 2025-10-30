@@ -87,17 +87,32 @@ export default function Pricing() {
                             <p className="pricing-box-desc opacity-70">
                               {plan.description}
                             </p>
-                            <div className="pricing-box-price hstack gap-narrow items-end mt-2">
-                              <h4 className="price h1 lg:display-5 m-0 text-inherit">
-                                ${isYearly ? (plan.yearlyPrice || plan.price) : plan.price}
-                              </h4>
-                              <span className="duration fs-7 opacity-70">
-                                / month
-                              </span>
-                            </div>
-                            <p className="pricing-box-bill fs-7 opacity-70">
-                              Billed {isYearly ? "yearly" : "monthly"}
-                            </p>
+                            {plan.price !== null ? (
+                              <>
+                                <div className="pricing-box-price hstack gap-narrow items-end mt-2">
+                                  <h4 className="price h1 lg:display-5 m-0 text-inherit">
+                                    ${isYearly ? (plan.yearlyPrice || plan.price) : plan.price}
+                                  </h4>
+                                  <span className="duration fs-7 opacity-70">
+                                    / month
+                                  </span>
+                                </div>
+                                <p className="pricing-box-bill fs-7 opacity-70">
+                                  Billed {isYearly ? "yearly" : "monthly"}
+                                </p>
+                              </>
+                            ) : (
+                              <>
+                                <div className="pricing-box-price hstack gap-narrow items-end mt-2">
+                                  <h4 className="price h1 lg:display-5 m-0 text-inherit">
+                                    Custom
+                                  </h4>
+                                </div>
+                                <p className="pricing-box-bill fs-7 opacity-70">
+                                  Contact us for pricing
+                                </p>
+                              </>
+                            )}
                             <hr />
                             <ul className="nav-y gap-1 fs-6">
                               <li className="mb-1">
@@ -123,7 +138,7 @@ export default function Pricing() {
                                 rel="noopener noreferrer"
                                 className={`btn btn-md ${plan.buttonClass} border`}
                               >
-                                Subscribe now
+                                {plan.buttonText || "Subscribe now"}
                               </a>
                             </div>
                           </div>
