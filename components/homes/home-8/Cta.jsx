@@ -118,56 +118,6 @@ export default function Cta() {
                     <span>Create your agent in 60 seconds</span>
                   </a>
                 </div>
-                <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white sm-flex-column">
-                  <div className="hstack justify-center gap-2">
-                    <b>Exellent</b>
-                    <div className="rating panel">
-                      <div className="hstack justify-center gap-narrow">
-                        <i
-                          className="icon unicon-star-filled text-white p-narrow"
-                          style={{ backgroundColor: "#00b67a" }}
-                        />
-                        <i
-                          className="icon unicon-star-filled text-white p-narrow"
-                          style={{ backgroundColor: "#00b67a" }}
-                        />
-                        <i
-                          className="icon unicon-star-filled text-white p-narrow"
-                          style={{ backgroundColor: "#00b67a" }}
-                        />
-                        <i
-                          className="icon unicon-star-filled text-white p-narrow"
-                          style={{ backgroundColor: "#00b67a" }}
-                        />
-                        <i
-                          className="icon unicon-star-filled text-white p-narrow"
-                          style={{ backgroundColor: "#00b67a" }}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="hstack justify-center gap-narrow">
-                    <span className="desc rtl:order-first">
-                      4,000+ reviews on
-                    </span>
-                    <div>
-                      <Image
-                        alt="Trustpilot"
-                        className="w-96px dark:d-none"
-                        src="/assets/images/review-logo/05.svg"
-                        width={138}
-                        height={42}
-                      />
-                      <Image
-                        alt="Trustpilot"
-                        className="w-96px d-none dark:d-inline-flex"
-                        src="/assets/images/review-logo/dark-05.svg"
-                        width={138}
-                        height={42}
-                      />
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

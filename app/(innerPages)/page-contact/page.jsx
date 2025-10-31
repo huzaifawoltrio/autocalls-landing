@@ -4,7 +4,6 @@ import Contact1 from "@/components/innerpages/Contact1";
 import ContactLinks from "@/components/innerpages/ContactLinks";
 import Faq from "@/components/homes/home-2/Faq";
 import Brands from "@/components/common/Brands2";
-import Blogs from "@/components/homes/home-2/Blogs";
 export const metadata = {
   title:
     "Contact Us - CenterCall | Get in Touch with Our AI Voice Team",
@@ -44,7 +43,6 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
-          <Blogs />
             </div>
             <Footer7 />
           </div>

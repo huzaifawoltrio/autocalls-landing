@@ -4,7 +4,6 @@ import Topbar from "@/components/headers/Topbar";
 
 import Faqs from "@/components/homes/home-7/Faqs";
 
-import Testimonials from "@/components/homes/home-7/Testimonials";
 import Pricing2 from "@/components/innerpages/Pricing2";
 import PricingCompare from "@/components/innerpages/PricingCompare";
 import React from "react";
@@ -23,8 +22,7 @@ export default function page() {
           <Header6 />
           <div id="wrapper" className="wrap">
             <Pricing2 />
-            <PricingCompare />
-            <Testimonials />
+            {/* <PricingCompare /> */}
             <Faqs ctaParentClass="section-outer panel pb-4 lg:pb-6 xl:pb-10" />
           </div>
           <Footer6 />

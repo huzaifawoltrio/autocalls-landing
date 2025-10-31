@@ -2,7 +2,6 @@ import Header7 from "@/components/headers/Header7";
 import Footer7 from "@/components/footers/Footer7";
 
 import Faq from "@/components/homes/home-2/Faq";
-import Testimonials from "@/components/homes/home-3/Testimonials";
 import Brands from "@/components/common/Brands2";
 import Cta from "@/components/innerpages/features/Cta";
 import Pricing from "@/components/innerpages/Pricing";
@@ -23,7 +22,6 @@ export default function PricingPage() {
           <Pricing />
           {/* <div className="pt-6 xl:pt-9"></div> */}
           <Faq />
-          <Testimonials />
           <div
             id="clients_brands"
             className="clients-brands section panel overflow-hidden"

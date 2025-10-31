@@ -23,56 +23,6 @@ export default function Footer8() {
                           <span>Start your free trial</span>
                         </a>
                       </div>
-                      <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white flex-row md-flex-column">
-                        <div className="hstack justify-center gap-2">
-                          <b>Super</b>
-                          <div className="rating panel">
-                            <div className="hstack justify-center gap-narrow">
-                              <i
-                                className="icon unicon-star-filled text-white p-narrow"
-                                style={{ backgroundColor: "#00b67a" }}
-                              />
-                              <i
-                                className="icon unicon-star-filled text-white p-narrow"
-                                style={{ backgroundColor: "#00b67a" }}
-                              />
-                              <i
-                                className="icon unicon-star-filled text-white p-narrow"
-                                style={{ backgroundColor: "#00b67a" }}
-                              />
-                              <i
-                                className="icon unicon-star-filled text-white p-narrow"
-                                style={{ backgroundColor: "#00b67a" }}
-                              />
-                              <i
-                                className="icon unicon-star-filled text-white p-narrow"
-                                style={{ backgroundColor: "#00b67a" }}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="hstack justify-center gap-narrow">
-                          <span className="desc rtl:order-first">
-                            5,200+ reviews on
-                          </span>
-                          <div>
-                            <Image
-                              alt="Trustpilot"
-                              className="w-96px dark:d-none"
-                              src="/assets/images/review-logo/05.svg"
-                              width={138}
-                              height={42}
-                            />
-                            <Image
-                              alt="Trustpilot"
-                              className="w-96px d-none dark:d-inline-flex"
-                              src="/assets/images/review-logo/dark-05.svg"
-                              width={138}
-                              height={42}
-                            />
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                   <div className="col-12 lg:col-6">

@@ -251,7 +251,6 @@ export const footerLinks6 = [
     links: [
       { text: "Features", href: "/page-features", isLink: true },
       { text: "Pricing", href: "/page-pricing", isLink: true },
-      { text: "Integrations", href: "/page-integrations", isLink: true },
       { text: "Contact", href: "/page-contact", isLink: true },
       { text: "FAQ", href: "#faq", isLink: false },
     ],
@@ -269,7 +268,7 @@ export const footerLinks6 = [
     links: [
       { text: "Sign Up", href: "https://app.centrecall.ai/register", isLink: false, external: true },
       { text: "Log In", href: "https://app.centrecall.ai/login", isLink: false, external: true },
-      { text: "Schedule Demo", href: "/page-contact", isLink: true },
+      { text: "Schedule Demo", href: "#", isLink: false },
       { text: "Support", href: "/page-contact", isLink: true },
       { text: "Privacy Policy", href: "#", isLink: false },
       { text: "Terms of Service", href: "#", isLink: false },

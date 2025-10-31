@@ -459,32 +459,62 @@ export const features9 = [
   {
     order: "order-1 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-01.svg",
-    title: "Outbound Sales Calls",
+    title: "Unlimited Assistants",
   },
   {
     order: "order-0",
     icon: "/assets/images/custom-icons/home-8-icon-02.svg",
-    title: "Lead Prequalification",
+    title: "Outbound Campaigns",
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-03.svg",
-    title: "Surveys and Feedback",
+    title: "Parallel Calls",
   },
   {
     order: "order-1 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-07.svg",
-    title: "Confirmations & Follow-up",
+    title: "Voice Cloning",
   },
   {
     order: "order-3 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-05.svg",
-    title: "Renewals and Upselling",
+    title: "Knowledgebases",
   },
   {
     order: "order-2 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-06.svg",
-    title: "Custom Business Scenarios",
+    title: "Mid-call Tools",
+  },
+  {
+    order: "order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-01.svg",
+    title: "Own Phone Numbers",
+  },
+  {
+    order: "order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-02.svg",
+    title: "Web Widget",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-03.svg",
+    title: "Secondary Languages",
+  },
+  {
+    order: "order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-07.svg",
+    title: "Automation Platform",
+  },
+  {
+    order: "order-3 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-05.svg",
+    title: "Calendar Integrations",
+  },
+  {
+    order: "order-2 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-06.svg",
+    title: "Custom Dashboards",
   },
 ];
 

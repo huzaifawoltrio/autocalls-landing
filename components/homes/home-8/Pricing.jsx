@@ -121,11 +121,10 @@ export default function Pricing() {
                               {plan.features.map((feature, i) => (
                                 <li key={i}>
                                   <i
-                                    className={`icon icon-narrow ${
-                                      plan.included[i]
-                                        ? "unicon-checkmark"
-                                        : "unicon-close"
-                                    } fw-bold ltr:me-1 rtl:ms-1`}
+                                    className={`icon icon-narrow ${plan.included[i]
+                                      ? "unicon-checkmark"
+                                      : "unicon-close"
+                                      } fw-bold ltr:me-1 rtl:ms-1`}
                                   />
                                   {feature}
                                 </li>
@@ -151,7 +150,7 @@ export default function Pricing() {
                   Save 2 months with yearly billing on all plans.
                 </p>
               </div>
-              <a
+              {/* <a
                 onClick={() => setShowFullFeatures((pre) => !pre)}
                 className="pricing-full-features-toggle btn btn-md btn-outline-tertiary dark:text-primary border px-3 rounded-pill"
                 style={{ transform: "translateY(0px)", opacity: 1 }}
@@ -160,9 +159,9 @@ export default function Pricing() {
                   <i className="icon-1 fw-bold unicon-add" /> Full list of
                   features
                 </span>
-              </a>
+              </a> */}
             </div>
-            {showFullFeatures && (
+            {/* {showFullFeatures && (
               <div
                 className="pricing-features panel overflow-auto p-2 bg-white text-dark rounded-1-5 lg:rounded-2 mt-4 lg:mt-6"
                 id="pricing-full-features"
@@ -997,7 +996,7 @@ export default function Pricing() {
                   </tbody>
                 </table>
               </div>
-            )}
+            )} */}
             <div
               className="pricing-benefits panel vstack gap-2 lg:gap-3 mt-6 lg:mt-8"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"

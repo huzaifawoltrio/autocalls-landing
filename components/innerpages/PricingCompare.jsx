@@ -11,7 +11,7 @@ export default function PricingCompare() {
           >
             <div className="heading vstack gap-2 items-center panel text-center max-w-600px mx-auto">
               <h2 className="title h3 m-0">
-                Let's compare plans and choose what fit your needs!
+                Compare plans and choose what fits your needs
               </h2>
             </div>
             <div className="panel p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-black overflowx-auto">
@@ -20,7 +20,7 @@ export default function PricingCompare() {
                   <tr className="table-row border-white dark:border-gray-900">
                     <th className="table-header-cell" scope="row">
                       <div className="text-transparent">
-                        <span>Nom du forfait</span>
+                        <span>Plan Features</span>
                       </div>
                     </th>
                     <th
@@ -30,7 +30,7 @@ export default function PricingCompare() {
                     >
                       <div className="title">
                         <div className="h6 lg:h5 mt-4 mb-2">
-                          <span>Free</span>
+                          <span>Starter</span>
                         </div>
                       </div>
                     </th>
@@ -52,7 +52,18 @@ export default function PricingCompare() {
                     >
                       <div className="title">
                         <div className="h6 lg:h5 mt-4 mb-2">
-                          <span>Business</span>
+                          <span>Agency</span>
+                        </div>
+                      </div>
+                    </th>
+                    <th
+                      className="table-header-cell w-1/5"
+                      scope="col"
+                      id="plan-4"
+                    >
+                      <div className="title">
+                        <div className="h6 lg:h5 mt-4 mb-2">
+                          <span>Custom</span>
                         </div>
                       </div>
                     </th>
@@ -60,9 +71,9 @@ export default function PricingCompare() {
                 </thead>
                 <tbody className="table-body">
                   <tr className="table-row table-heading bg-primary-25 dark:bg-gray-700 border-white dark:border-gray-900">
-                    <th colSpan={4} scope="colgroup">
+                    <th colSpan={5} scope="colgroup">
                       <div className="h6 m-0 text-dark dark:text-white">
-                        <span>AI Automation key features</span>
+                        <span>Core Features</span>
                       </div>
                     </th>
                   </tr>
@@ -70,31 +81,173 @@ export default function PricingCompare() {
                     <th scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
-                          Users
+                          Included Minutes
                         </span>
-                        <div
-                          data-uc-tooltip="The number of users of each plan."
-                          tabIndex={0}
-                          aria-expanded="false"
-                          role="tooltip"
-                        >
-                          <i className="icon icon-narrow unicon-information-filled mt-px" />
-                        </div>
                       </div>
                     </th>
                     <td>
                       <div>
-                        <span>1 user</span>
+                        <span>120 min</span>
                       </div>
                     </td>
                     <td>
                       <div>
-                        <span>5 users</span>
+                        <span>700 min</span>
                       </div>
                     </td>
                     <td>
                       <div>
-                        <span>Unlimited users</span>
+                        <span>1700 min</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>Custom</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr className="table-row border-gray-100 dark:border-gray-600">
+                    <th scope="row">
+                      <div className="hstack gap-1 justify-start">
+                        <span className="fs-5 fw-bold text-dark dark:text-white">
+                          Extra Minute Cost
+                        </span>
+                      </div>
+                    </th>
+                    <td>
+                      <div>
+                        <span>$0.60</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>$0.48</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>$0.29</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>Custom</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr className="table-row border-gray-100 dark:border-gray-600">
+                    <th scope="row">
+                      <div className="hstack gap-1 justify-start">
+                        <span className="fs-5 fw-bold text-dark dark:text-white">
+                          Assistants
+                        </span>
+                      </div>
+                    </th>
+                    <td>
+                      <div>
+                        <span>1</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>5</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>Unlimited</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>Unlimited</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr className="table-row border-gray-100 dark:border-gray-600">
+                    <th scope="row">
+                      <div className="hstack gap-1 justify-start">
+                        <span className="fs-5 fw-bold text-dark dark:text-white">
+                          Outbound Campaigns
+                        </span>
+                      </div>
+                    </th>
+                    <td>
+                      <div>
+                        <span>1</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>5</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>Unlimited</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>Unlimited</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr className="table-row border-gray-100 dark:border-gray-600">
+                    <th scope="row">
+                      <div className="hstack gap-1 justify-start">
+                        <span className="fs-5 fw-bold text-dark dark:text-white">
+                          Parallel Calls
+                        </span>
+                      </div>
+                    </th>
+                    <td>
+                      <div>
+                        <span>3</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>10</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>Unlimited</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>Unlimited</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr className="table-row border-gray-100 dark:border-gray-600">
+                    <th scope="row">
+                      <div className="hstack gap-1 justify-start">
+                        <span className="fs-5 fw-bold text-dark dark:text-white">
+                          Cloned Voices
+                        </span>
+                      </div>
+                    </th>
+                    <td>
+                      <div>
+                        <span>1</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>5</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>Unlimited</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>Unlimited</span>
                       </div>
                     </td>
                   </tr>

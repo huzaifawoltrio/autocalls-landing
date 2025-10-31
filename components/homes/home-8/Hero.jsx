@@ -29,7 +29,7 @@ export default function Hero() {
                       <span
                         className="text-tertiary dark:text-primary"
                         data-uc-splitext="types: 'chars'"
-                        // data-anime="targets: > *; translateY: [-5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 250; delay: anime.stagger(50);"
+                      // data-anime="targets: > *; translateY: [-5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 250; delay: anime.stagger(50);"
                       >
                         AI voice agents{" "}
                       </span>
@@ -39,7 +39,7 @@ export default function Hero() {
                     <p
                       className="fs-6 xl:fs-3 xl:px-10 dark:text-white text-opacity-70"
                       data-uc-splitext="types: 'words'"
-                      // data-anime="targets: > *; translateX: [5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: anime.stagger(50, {start:650});"
+                    // data-anime="targets: > *; translateX: [5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: anime.stagger(50, {start:650});"
                     >
                       Create no-code AI phone call systems with our AI voice agents: never miss a call again and convert more leads. Voice AI tech is ready to handle phone calls and behave like real people. Be among the first to take advantage 🚀
                     </p>
@@ -54,69 +54,17 @@ export default function Hero() {
                         <span>Create your agent in 60 seconds</span>
                       </a>
                     </div>
-                    <div
-                      className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white sm-flex-column"
-                      data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 850;"
-                    >
-                      <div className="hstack justify-center gap-2">
-                        <b>Exellent</b>
-                        <div className="rating panel">
-                          <div className="hstack justify-center gap-narrow">
-                            <i
-                              className="icon unicon-star-filled text-white p-narrow"
-                              style={{ backgroundColor: "#00b67a" }}
-                            />
-                            <i
-                              className="icon unicon-star-filled text-white p-narrow"
-                              style={{ backgroundColor: "#00b67a" }}
-                            />
-                            <i
-                              className="icon unicon-star-filled text-white p-narrow"
-                              style={{ backgroundColor: "#00b67a" }}
-                            />
-                            <i
-                              className="icon unicon-star-filled text-white p-narrow"
-                              style={{ backgroundColor: "#00b67a" }}
-                            />
-                            <i
-                              className="icon unicon-star-filled text-white p-narrow"
-                              style={{ backgroundColor: "#00b67a" }}
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div className="hstack justify-center gap-narrow">
-                        <span className="desc rtl:order-first">
-                          4,000+ reviews on
-                        </span>
-                        <div>
-                          <Image
-                            alt="Trustpilot"
-                            className="w-96px dark:d-none"
-                            src="/assets/images/review-logo/05.svg"
-                            width={138}
-                            height={42}
-                          />
-                          <Image
-                            alt="Trustpilot"
-                            className="w-96px d-none dark:d-inline-flex"
-                            src="/assets/images/review-logo/dark-05.svg"
-                            width={138}
-                            height={42}
-                          />
-                        </div>
-                      </div>
-                    </div>
                   </div>
                   <div
                     className="panel border shadow-lg rounded-2 p-1"
                     data-anime="translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: 950;"
                   >
                     <Image
-                      alt="Dashboard Lexend"
-                      src="/assets/images/template/dashboard-8-home.png"
+                      alt="Dashboard"
+                      src="/assets/images/dashboard.png"
                       width={1353}
                       height={978}
+                      className="rounded-2"
                     />
                   </div>
                 </div>

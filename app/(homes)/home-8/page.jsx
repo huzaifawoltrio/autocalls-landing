@@ -8,7 +8,6 @@ import Features from "@/components/homes/home-8/Features";
 import Features2 from "@/components/homes/home-8/Features2";
 import Hero from "@/components/homes/home-8/Hero";
 import Pricing from "@/components/homes/home-8/Pricing";
-import Testimonials from "@/components/homes/home-8/Testimonials";
 import Tools from "@/components/homes/home-8/Tools";
 import React from "react";
 export const metadata = {
@@ -31,7 +30,6 @@ export default function page() {
               <Tools />
               <Features2 />
               <Pricing />
-              <Testimonials />
               <Faqs />
               <Cta />
             </div>

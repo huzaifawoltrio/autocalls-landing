@@ -70,7 +70,7 @@ export default function Header7() {
                     <Link href={`/page-features`}>Features</Link>
                   </li>
                   <li>
-                    <Link href={`#`}>Demo</Link>
+                    <Link href={`/page-demo`}>Demo</Link>
                   </li>
                   <li>
                     <Link href={`/page-contact`}>Contact Us</Link>
