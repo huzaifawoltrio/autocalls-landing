@@ -53,7 +53,7 @@ export default function Pricing() {
                     onClick={() => setIsYearly(true)}
                   >
                     <a className="d-flex justify-center text-dark">
-                      Yearly <span className="ms-1 text-primary">Save 2 months</span>
+                      Yearly
                     </a>
                   </li>
                 </ul>
@@ -146,9 +146,6 @@ export default function Pricing() {
                     </Swiper>
                   </li>
                 </div>
-                <p className="text-center mt-4 lg:mt-6">
-                  Save 2 months with yearly billing on all plans.
-                </p>
               </div>
               {/* <a
                 onClick={() => setShowFullFeatures((pre) => !pre)}
