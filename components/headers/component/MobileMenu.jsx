@@ -56,13 +56,13 @@ export default function MobileMenu() {
             <Link
               href={`/`}
               className="panel text-none"
-              style={{ width: 140 }}
+              style={{ width: 190 }}
             >
               <Image
                 alt="CenterCall"
-                src="/assets/images/CentreCall.png"
-                width={222}
-                height={58}
+                src="/assets/images/CentreCall-new.png"
+                width={300}
+                height={78}
               />
             </Link>
           </div>

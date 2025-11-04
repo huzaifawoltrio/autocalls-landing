@@ -22,13 +22,13 @@ export default function Footer7() {
                         <Link
                           className="panel text-none"
                           href={`/home-8`}
-                          style={{ width: 210 }}
+                          style={{ width: 280 }}
                         >
                           <Image
                             alt="CenterCall"
-                            src="/assets/images/CentreCall.png"
-                            width={222}
-                            height={58}
+                            src="/assets/images/CentreCall-new.png"
+                            width={300}
+                            height={78}
                           />
                         </Link>
                         <p className="mt-2">
