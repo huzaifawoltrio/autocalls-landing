@@ -32,15 +32,16 @@ export default function Header7() {
       style={{}}
     >
       <nav
-        className={`uc-navbar-container uc-navbar-float ft-tertiary z-1 uc-navbar-transparent`}
+        className={`uc-navbar-container uc-navbar-float ft-tertiary z-1`}
         data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;"
         style={{ transform: "translateY(0px)", opacity: 1 }}
       >
         <div className="uc-navbar-main" style={{ "--uc-nav-height": "80px" }}>
           <div className="container">
             <div
-              className="uc-navbar min-h-64px lg:min-h-80px text-gray-900 dark:text-white px-1 lg:px-2 bg-white dark:bg-tertiary-600 bg-opacity-90 rounded-2 mt-2 shadow-xs"
+              className="uc-navbar min-h-64px lg:min-h-80px text-white px-1 lg:px-2 bg-tertiary-600 rounded-2 mt-2 shadow-xs"
               data-uc-navbar=" animation: uc-animation-slide-top-small; duration: 150;"
+              style={{ backgroundColor: 'rgba(0, 34, 92, 0.85)', backdropFilter: 'blur(10px)' }}
             >
               <div className="uc-navbar-left">
                 <div className="uc-logo ltr:ms-1 rtl:me-1">
@@ -79,7 +80,7 @@ export default function Header7() {
               </div>
               <div className="uc-navbar-right">
                 <a
-                  className="uc-link fs-5 text-dark dark:text-white"
+                  className="uc-link fs-5 text-white"
                   href="https://app.centrecall.ai/login"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -87,7 +88,7 @@ export default function Header7() {
                   Log in
                 </a>
                 <a
-                  className="btn btn-md btn-tertiary dark:bg-white dark:text-dark border fs-5 lg:px-3 d-none lg:d-inline-flex shadow-xs"
+                  className="btn btn-md btn-primary text-white border fs-5 lg:px-3 d-none lg:d-inline-flex shadow-xs"
                   href="https://app.centrecall.ai/register"
                   target="_blank"
                   rel="noopener noreferrer"
