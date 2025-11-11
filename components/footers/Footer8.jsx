@@ -31,15 +31,13 @@ export default function Footer8() {
                         <Link
                           className="panel text-none"
                           href={`/home-9`}
-                          style={{ width: 140 }}
+                          style={{ width: 190 }}
                         >
                           <Image
-                            className="text-tertiary dark:text-primary"
-                            alt="Lexend"
-                            data-uc-svg=""
-                            src="/assets/images/common/logo-8-dark.svg"
-                            width={148}
-                            height={39}
+                            alt="CentreCall"
+                            src="/assets/images/CentreCall.png"
+                            width={300}
+                            height={78}
                           />
                         </Link>
                         <p className="mt-2">

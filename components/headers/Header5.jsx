@@ -53,12 +53,12 @@ export default function Header5() {
             >
               <div className="uc-navbar-left">
                 <div className="uc-logo">
-                  <Link className="panel text-none" href={`/`}>
+                  <Link className="panel text-none" href={`/`} style={{ width: 190 }}>
                     <Image
-                      alt="Lexend"
-                      src="/assets/images/common/logo-icon.svg"
-                      width="40"
-                      height="40"
+                      alt="CentreCall"
+                      src="/assets/images/CentreCall.png"
+                      width="300"
+                      height="78"
                     />
                   </Link>
                 </div>

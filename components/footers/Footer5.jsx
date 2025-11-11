@@ -16,13 +16,12 @@ export default function Footer5() {
                   <div className="col-12 lg:col-6">
                     <div className="panel vstack items-start gap-3 xl:gap-4 lg:max-w-1/2">
                       <div>
-                        <Link href={`/`} style={{ width: 140 }}>
+                        <Link href={`/`} style={{ width: 190 }}>
                           <Image
-                            className="text-primary"
-                            alt="Lexend"
-                            src="/assets/images/common/logo-dark.svg"
-                            width="117"
-                            height="40"
+                            alt="CentreCall"
+                            src="/assets/images/CentreCall.png"
+                            width="300"
+                            height="78"
                           />
                         </Link>
                         <p className="mt-2">

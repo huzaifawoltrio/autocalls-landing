@@ -50,15 +50,13 @@ export default function Footer9() {
                         <Link
                           className="panel text-none"
                           href={`/home-10`}
-                          style={{ width: 140 }}
+                          style={{ width: 190 }}
                         >
                           <Image
-                            className="text-primary dark:text-tertiary"
-                            alt="Lexend"
-                            data-uc-svg=""
-                            src="/assets/images/common/logo-8-light.svg"
-                            width={148}
-                            height={39}
+                            alt="CentreCall"
+                            src="/assets/images/CentreCall.png"
+                            width={300}
+                            height={78}
                           />
                         </Link>
                         <p className="mt-2">

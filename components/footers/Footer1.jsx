@@ -17,11 +17,10 @@ export default function Footer1() {
                     <div className="vstack gap-2">
                       <Link href={`/`}>
                         <Image
-                          className="w-32px text-primary"
-                          alt="Lexend"
-                          src="/assets/images/common/logo-mark.svg"
-                          width="34"
-                          height="34"
+                          alt="CentreCall"
+                          src="/assets/images/CentreCall.png"
+                          width="150"
+                          height="39"
                         />
                       </Link>
                       <p>

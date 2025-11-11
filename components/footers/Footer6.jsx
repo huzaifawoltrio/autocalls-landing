@@ -19,20 +19,12 @@ export default function Footer6() {
                   <div className="col-12 md:col-6">
                     <div className="panel vstack items-start gap-3 xl:gap-4 md:max-w-1/2">
                       <div>
-                        <Link href={`/`} style={{ width: 140 }}>
+                        <Link href={`/`} style={{ width: 190 }}>
                           <Image
-                            className="dark:d-none"
-                            alt="Lexend"
-                            src="/assets/images/common/logo-new-light.svg"
-                            width={128}
-                            height={34}
-                          />
-                          <Image
-                            className="d-none dark:d-block"
-                            alt="Lexend"
-                            src="/assets/images/common/logo-new-dark.svg"
-                            width={128}
-                            height={34}
+                            alt="CentreCall"
+                            src="/assets/images/CentreCall.png"
+                            width={300}
+                            height={78}
                           />
                         </Link>
                         <p className="lg:fs-5 mt-2 fw-medium">

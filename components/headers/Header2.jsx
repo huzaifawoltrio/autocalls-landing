@@ -55,21 +55,13 @@ export default function Header2() {
                   <Link
                     className="panel text-none"
                     href={`/`}
-                    style={{ width: 140 }}
+                    style={{ width: 190 }}
                   >
                     <Image
-                      className="dark:d-none"
-                      alt="Lexend"
-                      src="/assets/images/common/logo-light.svg"
-                      width="117"
-                      height="40"
-                    />
-                    <Image
-                      className="d-none dark:d-block"
-                      alt="Lexend"
-                      src="/assets/images/common/logo-dark.svg"
-                      width="117"
-                      height="40"
+                      alt="CentreCall"
+                      src="/assets/images/CentreCall.png"
+                      width="300"
+                      height="78"
                     />
                   </Link>
                 </div>

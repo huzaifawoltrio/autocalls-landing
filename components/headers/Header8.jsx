@@ -76,21 +76,13 @@ export default function Header8() {
                   <Link
                     className="panel text-none"
                     href={`/home-9`}
-                    style={{ width: 140 }}
+                    style={{ width: 190 }}
                   >
                     <Image
-                      className="dark:d-none"
-                      alt="Lexend"
-                      src="/assets/images/common/logo-8-light.svg"
-                      width={148}
-                      height={39}
-                    />
-                    <Image
-                      className="d-none dark:d-block"
-                      alt="Lexend"
-                      src="/assets/images/common/logo-8-dark.svg"
-                      width={148}
-                      height={39}
+                      alt="CentreCall"
+                      src="/assets/images/CentreCall.png"
+                      width={300}
+                      height={78}
                     />
                   </Link>
                 </div>

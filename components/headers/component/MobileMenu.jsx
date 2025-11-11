@@ -60,7 +60,7 @@ export default function MobileMenu() {
             >
               <Image
                 alt="CenterCall"
-                src="/assets/images/CentreCall-new.png"
+                src="/assets/images/CentreCall.png"
                 width={300}
                 height={78}
               />

@@ -22,21 +22,13 @@ export default function Footer3() {
                   <Link
                     className="panel text-none "
                     href={`/home-4`}
-                    style={{ width: 140 }}
+                    style={{ width: 190 }}
                   >
                     <Image
-                      className="dark:d-none"
-                      alt=""
-                      src="/assets/images/common/logo-light.svg"
-                      width="117"
-                      height="40"
-                    />
-                    <Image
-                      className="d-none dark:d-block"
-                      alt=""
-                      src="/assets/images/common/logo-dark.svg"
-                      width="117"
-                      height="40"
+                      alt="CentreCall"
+                      src="/assets/images/CentreCall.png"
+                      width="300"
+                      height="78"
                     />
                   </Link>
                 </div>

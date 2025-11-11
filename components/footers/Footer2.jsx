@@ -16,10 +16,11 @@ export default function Footer2() {
                   <div className="panel vstack items-start gap-4 ltr:md:pe-8 rtl:md:ps-8">
                     <div className="vstack gap-2">
                       <Link href={`/`}>
-                        <img
-                          className=" text-primary"
-                          alt="Lexend"
-                          src="/assets/images/common/logo-dark.svg"
+                        <Image
+                          alt="CentreCall"
+                          src="/assets/images/CentreCall.png"
+                          width="150"
+                          height="39"
                         />
                       </Link>
                       <p>

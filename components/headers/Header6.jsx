@@ -76,21 +76,13 @@ export default function Header6({ staticPosition = false }) {
                     <Link
                       className="panel text-none"
                       href={`/`}
-                      style={{ width: 140 }}
+                      style={{ width: 190 }}
                     >
                       <Image
-                        className="dark:d-none"
-                        alt="Lexend"
-                        width="128"
-                        height="34"
-                        src="/assets/images/common/logo-new-light.svg"
-                      />
-                      <Image
-                        className="d-none dark:d-block"
-                        alt="Lexend"
-                        width="128"
-                        height="34"
-                        src="/assets/images/common/logo-new-dark.svg"
+                        alt="CentreCall"
+                        width="300"
+                        height="78"
+                        src="/assets/images/CentreCall.png"
                       />
                     </Link>
                   </div>

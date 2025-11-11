@@ -56,11 +56,10 @@ export default function SignIn() {
                     data-anime="scale: [0.5, 1]; opacity: [0, 1]; easing: easeInOutExpo; duration: 750; delay: anime.stagger(100, {start: 150});"
                   >
                     <Image
-                      className="w-32px lg:w-40px"
-                      alt=""
-                      src="/assets/images/common/logo-mark.svg"
-                      width="34"
-                      height="34"
+                      alt="CentreCall"
+                      src="/assets/images/CentreCall.png"
+                      width="120"
+                      height="31"
                     />
                   </Link>
                 </div>
