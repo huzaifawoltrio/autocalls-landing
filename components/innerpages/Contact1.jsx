@@ -68,13 +68,13 @@ export default function Contact1() {
                       <div className="panel z-1">
                         <div className="vstack gap-3">
                           <p className="fs-5 xl:fs-4 fw-medium">
-                            “This software simplifies the website building
-                            process, making it a breeze to manage our online
-                            presence.”
+                            “CenterCall transformed how we handle customer
+                            calls. Our AI agents never miss a call and our team
+                            can focus on what matters most.”
                           </p>
                           <div className="vstack gap-0">
                             <p className="fs-6 lg:fs-5 fw-medium">
-                              Sarah Mitchell
+                              Michael Thompson
                             </p>
                             <span className="fs-7 opacity-80">
                               Operations Director

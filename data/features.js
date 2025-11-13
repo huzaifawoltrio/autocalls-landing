@@ -159,7 +159,7 @@ export const features4 = [
       "Answer every customer call instantly with AI agents that never sleep, never take breaks, and handle unlimited parallel calls.",
   },
   {
-    icon: "unicon-calling",
+    icon: "unicon-phone-filled",
     title: "Outbound Campaigns",
     description:
       "Launch automated outbound calling campaigns for sales, follow-ups, and customer engagement at scale.",
@@ -171,7 +171,7 @@ export const features4 = [
       "Automatically book, reschedule, and send reminders for appointments with live calendar integration.",
   },
   {
-    icon: "unicon-user-check",
+    icon: "unicon-checkbox-checked",
     title: "Lead Qualification",
     description:
       "Pre-qualify leads automatically before routing to your sales team, saving time and increasing conversion rates.",
