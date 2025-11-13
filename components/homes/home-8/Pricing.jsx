@@ -81,7 +81,7 @@ export default function Pricing() {
                       {pricingPlans3.map((plan, index) => (
                         <SwiperSlide key={index}>
                           <div className="pricing-box panel p-2 md:p-3 lg:p-4 xl:p-5 vstack items-start rounded-1-5 lg:rounded-2 bg-white text-dark shadow-xs">
-                            <span className="pricing-box-title fs-6 fw-bold py-narrow px-2 border rounded-pill mb-2">
+                            <span className="pricing-box-title fs-6 fw-bold py-narrow px-2 border rounded-pill mb-2 text-nowrap">
                               {plan.title}
                             </span>
                             <p className="pricing-box-desc opacity-70">
@@ -104,7 +104,7 @@ export default function Pricing() {
                             ) : (
                               <>
                                 <div className="pricing-box-price hstack gap-narrow items-end mt-2">
-                                  <h4 className="price h1 lg:display-5 m-0 text-inherit">
+                                  <h4 className="price h2 lg:h1 xl:display-5 m-0 text-inherit">
                                     Custom
                                   </h4>
                                 </div>
