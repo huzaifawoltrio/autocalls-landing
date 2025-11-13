@@ -58,22 +58,17 @@ export default function Features() {
                 </div>
               ))}
               <div className="md:col-6">
-                <div className="panel overflow-hidden bg-primary-300 text-gray-900 rounded-2 lg:rounded-3">
-                  <div className="panel vstack items-center text-center gap-2 p-3 lg:p-4 xl:p-6">
+                <div className="panel overflow-hidden bg-tertiary-700 text-white rounded-2 lg:rounded-3">
+                  <div className="panel vstack items-center text-center gap-3 p-4 lg:p-6 xl:p-8">
                     <h4 className="h4 m-0 text-inherit">
                       100+ languages to choose from
                     </h4>
                     <p className="fs-6 md:fs-5 lg:fs-4 m-0">
                       CenterCall supports over 100 languages and diverse accents to address global audiences. Each language is equipped with hundreds of natural-sounding voice options, while also allowing you to clone your own voice.
                     </p>
-                  </div>
-                  <div className="panel px-3 lg:px-4 xl:px-6 mb-2 lg:mb-5">
-                    <Image
-                      alt="builder-tools"
-                      src="/assets/images/template/home-06-builder-tools.png"
-                      width={1280}
-                      height={800}
-                    />
+                    <p className="fs-6 md:fs-5 m-0 opacity-90">
+                      Whether you're serving customers in English, Spanish, Mandarin, Arabic, or any other language, our AI voice agents deliver authentic conversations with native-level fluency.
+                    </p>
                   </div>
                 </div>
               </div>

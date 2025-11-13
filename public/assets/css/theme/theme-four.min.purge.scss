@@ -155,25 +155,25 @@
   --color-slate-900: #15171a;
 
   // Start home-8 color plate changer from here. rgb must replace with rgb and hex code must replace with hex code
-  --color-primary: #14E5D8;
-  --color-tertiary-rgb: 20, 229, 216;
-  --color-primary-rgb: 20, 229, 216;
-  --btn-hover-bg: #11CEC2;
-  --btn-hover-border-color: #0FB8AD;
+  --color-primary: #006BDB;
+  --color-tertiary-rgb: 0, 107, 219;
+  --color-primary-rgb: 0, 107, 219;
+  --btn-hover-bg: #0056B3;
+  --btn-hover-border-color: #004A9F;
   // End  home-8 color plate changer from here. rgb must replace with rgb and hex code must replace with hex code
 
-  --color-primary-10: #E6FDFB;
-  --color-primary-25: #CCFBF7;
-  --color-primary-50: #99F7F0;
-  --color-primary-100: #66F3E9;
-  --color-primary-200: #33EFE1;
-  --color-primary-300: #14E5D8;
-  --color-primary-400: #11CEC2;
+  --color-primary-10: #E6F2FF;
+  --color-primary-25: #CCE5FF;
+  --color-primary-50: #99CBFF;
+  --color-primary-100: #66B0FF;
+  --color-primary-200: #3396FF;
+  --color-primary-300: #007BF5;
+  --color-primary-400: #006BDB;
   --color-primary-500: var(--color-primary);
-  --color-primary-600: #0FB8AD;
-  --color-primary-700: #0D9A91;
-  --color-primary-800: #0A7C76;
-  --color-primary-900: #075E5A;
+  --color-primary-600: #0056B3;
+  --color-primary-700: #004A9F;
+  --color-primary-800: #003D85;
+  --color-primary-900: #00316B;
   --color-secondary: #fcf0e7;
   --color-secondary-10: #fffffe;
   --color-secondary-25: #fffefe;
@@ -405,7 +405,7 @@
   --color-tertiary-400: #5d7cf0;
   --color-tertiary-500: #2843de;
   --color-tertiary-600: #2843de;
-  --color-tertiary-700: #1f36b2;
+  --color-tertiary-700: #01233a;
   --color-tertiary-800: #162885;
   --color-tertiary-900: #0c1829;
   --color-quaternary: #d4d7c2;
@@ -1343,7 +1343,7 @@
   --bs-tertiary-400-rgb: 53, 121, 131;
   --bs-tertiary-500-rgb: var(--color-tertiary-rgb);
   --bs-tertiary-600-rgb: 2, 70, 80;
-  --bs-tertiary-700-rgb: 1, 53, 60;
+  --bs-tertiary-700-rgb: 1, 35, 58;
   --bs-tertiary-800-rgb: 1, 35, 40;
   --bs-tertiary-900-rgb: 0, 18, 20;
   --bs-quaternary-rgb: 212, 215, 194;

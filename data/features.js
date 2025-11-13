@@ -458,62 +458,62 @@ export const features8 = [
 export const features9 = [
   {
     order: "order-1 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-01.svg",
+    icon: "/assets/images/custom-icons/dark-home-8-icon-01.svg",
     title: "Unlimited Assistants",
   },
   {
     order: "order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-02.svg",
+    icon: "/assets/images/custom-icons/dark-home-8-icon-02.svg",
     title: "Outbound Campaigns",
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-03.svg",
+    icon: "/assets/images/custom-icons/dark-home-8-icon-03.svg",
     title: "Parallel Calls",
   },
   {
     order: "order-1 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-07.svg",
+    icon: "/assets/images/custom-icons/dark-home-8-icon-07.svg",
     title: "Voice Cloning",
   },
   {
     order: "order-3 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-05.svg",
+    icon: "/assets/images/custom-icons/dark-home-8-icon-05.svg",
     title: "Knowledgebases",
   },
   {
     order: "order-2 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-06.svg",
+    icon: "/assets/images/custom-icons/dark-home-8-icon-06.svg",
     title: "Mid-call Tools",
   },
   {
     order: "order-1 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-01.svg",
+    icon: "/assets/images/custom-icons/dark-home-8-icon-01.svg",
     title: "Own Phone Numbers",
   },
   {
     order: "order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-02.svg",
+    icon: "/assets/images/custom-icons/dark-home-8-icon-02.svg",
     title: "Web Widget",
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-03.svg",
+    icon: "/assets/images/custom-icons/dark-home-8-icon-03.svg",
     title: "Secondary Languages",
   },
   {
     order: "order-1 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-07.svg",
+    icon: "/assets/images/custom-icons/dark-home-8-icon-07.svg",
     title: "Automation Platform",
   },
   {
     order: "order-3 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-05.svg",
+    icon: "/assets/images/custom-icons/dark-home-8-icon-05.svg",
     title: "Calendar Integrations",
   },
   {
     order: "order-2 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-06.svg",
+    icon: "/assets/images/custom-icons/dark-home-8-icon-06.svg",
     title: "Custom Dashboards",
   },
 ];

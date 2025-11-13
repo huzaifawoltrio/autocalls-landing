@@ -30,7 +30,7 @@ export default function Header7() {
         .header-eight .uc-navbar-center .uc-navbar-nav li a:hover,
         .header-eight .uc-navbar-nav li a:hover,
         .header-eight .uc-navbar-right a.uc-link:hover {
-          color: #14E5D8 !important;
+          color: #006BDB !important;
         }
         .header-eight .uc-navbar-center .uc-navbar-nav li a {
           transition: color 0.15s ease-in-out;

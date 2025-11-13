@@ -147,24 +147,24 @@
   --color-slate-900: #15171a;
 
   /* home 1 to 6 and inner pages and rtl version main color plate change from bellow  */
-  --color-primary: #14E5D8;
-  --bs-primary-rgb: 20, 229, 216;
-  --btn-hover-bg: #11CEC2;
-  --btn-hover-border-color: #0FB8AD;
+  --color-primary: #006BDB;
+  --bs-primary-rgb: 0, 107, 219;
+  --btn-hover-bg: #0056B3;
+  --btn-hover-border-color: #004A9F;
   /* home 1 to 6 and inner pages and rtl version main color plate change from top  */
 
-  --color-primary-10: #E6FDFB;
-  --color-primary-25: #CCFBF7;
-  --color-primary-50: #99F7F0;
-  --color-primary-100: #66F3E9;
-  --color-primary-200: #33EFE1;
-  --color-primary-300: #14E5D8;
-  --color-primary-400: #11CEC2;
+  --color-primary-10: #E6F2FF;
+  --color-primary-25: #CCE5FF;
+  --color-primary-50: #99CBFF;
+  --color-primary-100: #66B0FF;
+  --color-primary-200: #3396FF;
+  --color-primary-300: #007BF5;
+  --color-primary-400: #006BDB;
   --color-primary-500: var(--color-primary);
   --color-primary-600: var(--btn-hover-border-color);
-  --color-primary-700: #0D9A91;
-  --color-primary-800: #0A7C76;
-  --color-primary-900: #075E5A;
+  --color-primary-700: #004A9F;
+  --color-primary-800: #003D85;
+  --color-primary-900: #00316B;
   --color-secondary: #f5eee9;
   --color-secondary-10: #fffefe;
   --color-secondary-25: #fffefe;
@@ -396,7 +396,7 @@
   --color-tertiary-400: #5d7cf0;
   --color-tertiary-500: #2843de;
   --color-tertiary-600: #2843de;
-  --color-tertiary-700: #1f36b2;
+  --color-tertiary-700: #01233a;
   --color-tertiary-800: #162885;
   --color-tertiary-900: #0d1a59;
   --colors-accent-primary: var(--color-primary);
