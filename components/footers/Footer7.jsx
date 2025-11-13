@@ -26,7 +26,7 @@ export default function Footer7() {
                         >
                           <Image
                             alt="CenterCall"
-                            src="/assets/images/CentreCall.png"
+                            src="/assets/images/CentreCall.svg"
                             width={300}
                             height={78}
                           />

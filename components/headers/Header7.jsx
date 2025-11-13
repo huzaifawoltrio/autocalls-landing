@@ -30,7 +30,7 @@ export default function Header7() {
         .header-eight .uc-navbar-center .uc-navbar-nav li a:hover,
         .header-eight .uc-navbar-nav li a:hover,
         .header-eight .uc-navbar-right a.uc-link:hover {
-          color: #3b82f6 !important;
+          color: #14E5D8 !important;
         }
         .header-eight .uc-navbar-center .uc-navbar-nav li a {
           transition: color 0.15s ease-in-out;
@@ -63,7 +63,7 @@ export default function Header7() {
                   >
                     <Image
                       alt="CenterCall"
-                      src="/assets/images/CentreCall.png"
+                      src="/assets/images/CentreCall.svg"
                       width={300}
                       height={78}
                     />

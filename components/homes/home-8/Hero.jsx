@@ -41,7 +41,7 @@ export default function Hero() {
                       data-uc-splitext="types: 'words'"
                     // data-anime="targets: > *; translateX: [5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: anime.stagger(50, {start:650});"
                     >
-                      Create no-code AI phone call systems with our AI voice agents: never miss a call again and convert more leads. Voice AI tech is ready to handle phone calls and behave like real people. Be among the first to take advantage 🚀
+                      Create no-code AI phone call systems with our AI voice agents: never miss a call again and convert more leads. Voice AI tech is ready to handle phone calls and behave like real people. Be among the first to take advantage
                     </p>
                     <div
                       className="vstack md:hstack justify-center gap-1 my-1 lg:my-3"
