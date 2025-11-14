@@ -4,7 +4,7 @@ import React from "react";
 export default function Faqs() {
   return (
     <div id="faq" className="faq section panel">
-      <div className="section-outer panel">
+      <div className="section-outer panel pt-6 md:pt-8 xl:pt-10">
         <div className="container lg:max-w-lg pb-6 lg:pb-8 xl:pb-10">
           <div
             className="section-inner panel"

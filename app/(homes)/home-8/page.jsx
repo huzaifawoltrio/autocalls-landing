@@ -9,6 +9,7 @@ import Features2 from "@/components/homes/home-8/Features2";
 import Hero from "@/components/homes/home-8/Hero";
 import Pricing from "@/components/homes/home-8/Pricing";
 import Tools from "@/components/homes/home-8/Tools";
+import VideoSection from "@/components/homes/home-8/VideoSection";
 import React from "react";
 export const metadata = {
   title:
@@ -26,6 +27,7 @@ export default function page() {
             <div id="wrapper" className="wrap">
               <Hero />
               <Brands />
+              <VideoSection />
               <Features />
               <Tools />
               <Features2 />
