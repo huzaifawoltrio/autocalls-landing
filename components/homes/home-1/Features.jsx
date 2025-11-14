@@ -102,7 +102,7 @@ export default function Features() {
                                     own dynamic versions.
                                   </p>
                                  <Link
-                                    href="/page-features"
+                                    href="/features"
                                     className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
                                   >
                                     <span>Let's find out</span>
@@ -192,7 +192,7 @@ export default function Features() {
                                     mistakes.
                                   </p>
                                 <Link
-                                    href="/page-features"
+                                    href="/features"
                                     className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
                                   >
                                     <span>Let's find out</span>
@@ -237,7 +237,7 @@ export default function Features() {
                                     eliminate Tool errors.
                                   </p>
                                   <Link
-                                    href="/page-features"
+                                    href="/features"
                                     className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
                                   >
                                     <span>Let's find out</span>

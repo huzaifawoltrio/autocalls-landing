@@ -41,10 +41,10 @@ export default function Header9() {
                   style={{ "--uc-nav-height": "48px" }}
                 >
                   <li>
-                    <Link href={`/page-features`}>Features</Link>
+                    <Link href={`/features`}>Features</Link>
                   </li>
                   <li>
-                    <Link href={`/page-pricing-2`}>Pricing</Link>
+                    <Link href={`/pricing-2`}>Pricing</Link>
                   </li>
                   <li>
                     <Link href={`/page-blog`}>Blog</Link>

@@ -145,7 +145,7 @@ export default function Nav2() {
                 <li>
                   <Link
                     className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-features`}
+                    href={`/features`}
                   >
                     <i className="icon-1 unicon-checkmark fw-bold text-primary dark:text-secondary" />
                     <span className="vstack gap-narrow mt-nnarrow">
@@ -160,7 +160,7 @@ export default function Nav2() {
                 <li>
                   <Link
                     className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-features`}
+                    href={`/features`}
                   >
                     <i className="icon-1 unicon-chart-pie fw-bold text-primary dark:text-secondary" />
                     <span className="vstack gap-narrow mt-nnarrow">
@@ -174,7 +174,7 @@ export default function Nav2() {
                 <li>
                   <Link
                     className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-features`}
+                    href={`/features`}
                   >
                     <i className="icon-1 unicon-increase-level fw-bold text-primary dark:text-secondary" />
                     <span className="vstack gap-narrow mt-nnarrow">
@@ -188,7 +188,7 @@ export default function Nav2() {
                 <li>
                   <Link
                     className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-features`}
+                    href={`/features`}
                   >
                     <i className="icon-1 unicon-chart-venn-diagram fw-bold text-primary dark:text-secondary" />
                     <span className="vstack gap-narrow mt-nnarrow">
@@ -238,7 +238,7 @@ export default function Nav2() {
                     </p>
                   </div>
                   <Link
-                    href={`/page-pricing`}
+                    href={`/pricing`}
                     className="btn btn-sm btn-primary"
                   >
                     Start free trial
@@ -309,7 +309,7 @@ export default function Nav2() {
                 <li>
                   <Link
                     className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-features`}
+                    href={`/features`}
                   >
                     <i className="icon-1 unicon-play fw-bold text-primary dark:text-secondary" />
                     <span className="vstack gap-narrow mt-nnarrow">
@@ -343,7 +343,7 @@ export default function Nav2() {
                 <li>
                   <Link
                     className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-contact`}
+                    href={`/contact`}
                   >
                     <i className="icon-1 unicon-headset fw-bold text-primary dark:text-secondary" />
                     <span className="vstack gap-narrow mt-nnarrow">
@@ -360,7 +360,7 @@ export default function Nav2() {
         </div>
       </li>
       <li>
-        <Link href={`/page-pricing`}>Pricing</Link>
+        <Link href={`/pricing`}>Pricing</Link>
       </li>
       <li>
         <a

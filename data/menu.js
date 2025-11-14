@@ -51,17 +51,17 @@ export const menuItems = [
   },
   {
     id: 2,
-    href: "/page-features",
+    href: "/features",
     label: "Features",
   },
   {
     id: 3,
-    href: "/page-pricing",
+    href: "/pricing",
     label: "Pricing",
   },
   {
     id: 3,
-    href: "/page-pricing-2",
+    href: "/pricing-2",
     label: "Pricing 2",
   },
   {
@@ -76,7 +76,7 @@ export const menuItems = [
   },
   {
     id: 6,
-    href: "/page-contact",
+    href: "/contact",
     label: "Contact",
   },
   {
@@ -318,15 +318,15 @@ export const pagesData = [
     header: "Inner Pages",
     items: [
       {
-        href: "/page-features",
+        href: "/features",
         label: "Features",
       },
       {
-        href: "/page-pricing",
+        href: "/pricing",
         label: "Pricing",
       },
       {
-        href: "/page-pricing-2",
+        href: "/pricing-2",
         label: "Pricing 2",
         badge: {
           text: "New",
@@ -358,11 +358,11 @@ export const pagesData = [
         label: "Job details",
       },
       {
-        href: "/page-contact",
+        href: "/contact",
         label: "Contact",
       },
       {
-        href: "/page-contact-2",
+        href: "/contact-2",
         label: "Contact v2",
       },
       {
@@ -574,15 +574,15 @@ export const mainPages = [
     title: "Home 4",
   },
   {
-    href: "/page-features",
+    href: "/features",
     alt: "Features",
-    src: "/assets/images/demos/screenshots/page-features.jpg",
+    src: "/assets/images/demos/screenshots/features.jpg",
     title: "Features",
   },
   {
-    href: "/page-pricing",
+    href: "/pricing",
     alt: "Pricing",
-    src: "/assets/images/demos/screenshots/page-pricing.jpg",
+    src: "/assets/images/demos/screenshots/pricing.jpg",
     title: "Pricing",
   },
   {
@@ -602,8 +602,8 @@ export const mainPages = [
 export const othermenuItems = [
   { href: "/page-career", icon: "unicon-wikis", title: "Career" },
   { href: "/page-career-detail/2", icon: "unicon-wikis", title: "Job details" },
-  { href: "/page-contact", icon: "unicon-wikis", title: "Contact" },
-  { href: "/page-contact-2", icon: "unicon-wikis", title: "Contact v2" },
+  { href: "/contact", icon: "unicon-wikis", title: "Contact" },
+  { href: "/contact-2", icon: "unicon-wikis", title: "Contact v2" },
   { href: "/blog", icon: "unicon-course", title: "Blog" },
   { href: "/blog-details/1", icon: "unicon-course", title: "Blog details" },
   {
@@ -753,7 +753,7 @@ export const links = [
   },
   {
     id: 7,
-    href: "/page-contact",
+    href: "/contact",
     label: "Get in touch",
     isInternal: true,
   },
@@ -819,12 +819,12 @@ export const sections = [
   {
     title: "Get started is Easy!",
     links: [
-      { href: "/page-contact", text: "Hire an Expert" },
+      { href: "/contact", text: "Hire an Expert" },
       { href: "#", text: "Customer stories" },
       { href: "#", text: "Resources" },
       { href: "/blog-sidebar", text: "Blog" },
       { href: "/page-career", text: "Career" },
-      { href: "/page-contact", text: "Help Center" },
+      { href: "/contact", text: "Help Center" },
     ],
   },
   {
@@ -1062,12 +1062,12 @@ export const categories = [
   {
     title: "Get started is Easy!",
     links: [
-      { text: "Hire an Expert", href: "/page-contact" },
+      { text: "Hire an Expert", href: "/contact" },
       { text: "Customer stories", href: "#" },
       { text: "Resources", href: "#" },
       { text: "Blog", href: "/blog-sidebar" },
       { text: "Career", href: "/page-career" },
-      { text: "Help Center", href: "/page-contact" },
+      { text: "Help Center", href: "/contact" },
     ],
   },
   {

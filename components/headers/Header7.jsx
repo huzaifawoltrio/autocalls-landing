@@ -58,7 +58,7 @@ export default function Header7() {
                 <div className="uc-logo ltr:ms-1 rtl:me-1">
                   <Link
                     className="panel text-none"
-                    href={`/home-8`}
+                    href={`/`}
                     style={{ width: 190 }}
                   >
                     <Image
@@ -76,16 +76,16 @@ export default function Header7() {
                     <Link href={`/`} className="hover:text-primary transition-colors duration-150">Home</Link>
                   </li>
                   <li>
-                    <Link href={`/page-pricing`} className="hover:text-primary transition-colors duration-150">Pricing</Link>
+                    <Link href={`/pricing`} className="hover:text-primary transition-colors duration-150">Pricing</Link>
                   </li>
                   <li>
-                    <Link href={`/page-features`} className="hover:text-primary transition-colors duration-150">Features</Link>
+                    <Link href={`/features`} className="hover:text-primary transition-colors duration-150">Features</Link>
                   </li>
                   <li>
-                    <Link href={`/page-demo`} className="hover:text-primary transition-colors duration-150">Demo</Link>
+                    <Link href={`/demo`} className="hover:text-primary transition-colors duration-150">Demo</Link>
                   </li>
                   <li>
-                    <Link href={`/page-contact`} className="hover:text-primary transition-colors duration-150">Contact Us</Link>
+                    <Link href={`/contact`} className="hover:text-primary transition-colors duration-150">Contact Us</Link>
                   </li>
                 </ul>
               </div>

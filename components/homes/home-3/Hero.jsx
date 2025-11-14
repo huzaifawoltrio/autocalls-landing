@@ -170,7 +170,7 @@ export default function Hero() {
               </p>
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column fdr">
                 <Link
-                  href={`/page-pricing`}
+                  href={`/pricing`}
                   className="btn btn-md lg:btn-lg btn-primary text-white"
                 >
                   Start free 14-day trial

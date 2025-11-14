@@ -146,7 +146,7 @@ export default function Header6({ staticPosition = false }) {
                                                 (item, idx) => (
                                                   <div key={idx}>
                                                     <Link
-                                                      href={`/page-features`}
+                                                      href={`/features`}
                                                       className="hstack items-start gap-2 text-none text-dark dark:text-white hover:text-primary dark:hover:text-tertiary"
                                                     >
                                                       <span className="icon rounded dark:bg-white">
@@ -172,7 +172,7 @@ export default function Header6({ staticPosition = false }) {
                                               )}
                                               <div>
                                                 <Link
-                                                  href={`/page-features`}
+                                                  href={`/features`}
                                                   className="ltr:ms-6 rtl:me-6 text-none fs-8 text-dark dark:text-white hover:text-primary dark:hover:text-tertiary"
                                                 >
                                                   <span className="border-bottom hover:border-primary duration-150">
@@ -302,7 +302,7 @@ export default function Header6({ staticPosition = false }) {
                                               <li key={i}>
                                                 <Link
                                                   className="hstack items-start gap-2"
-                                                  href={`/page-features`}
+                                                  href={`/features`}
                                                 >
                                                   <div className="cstack min-w-32px h-32px rounded bg-tertiary">
                                                     <i
@@ -372,7 +372,7 @@ export default function Header6({ staticPosition = false }) {
                                       <h5 className="h6">Start with ease!</h5>
                                       <ul className="uc-nav uc-navbar-dropdown-nav fs-7 fw-normal row child-cols-12">
                                         <li>
-                                          <Link href={`/page-contact`}>
+                                          <Link href={`/contact`}>
                                             Hire an Expert
                                           </Link>
                                         </li>
@@ -393,7 +393,7 @@ export default function Header6({ staticPosition = false }) {
                                           </Link>
                                         </li>
                                         <li>
-                                          <Link href={`/page-contact`}>
+                                          <Link href={`/contact`}>
                                             Help Center
                                           </Link>
                                         </li>
@@ -441,7 +441,7 @@ export default function Header6({ staticPosition = false }) {
                       <Link href={`/blog-sidebar`}>Insights</Link>
                     </li>
                     <li>
-                      <Link href={`/page-pricing-2`}>Pricing</Link>
+                      <Link href={`/pricing-2`}>Pricing</Link>
                     </li>
                     <li>
                       <a
@@ -457,7 +457,7 @@ export default function Header6({ staticPosition = false }) {
                 <div className="uc-navbar-right">
                   <ul className="nav-x d-none lg:d-flex">
                     <li className="d-none xl:d-inline-flex">
-                      <Link href={`/page-contact-2`}>Contact sales</Link>
+                      <Link href={`/contact-2`}>Contact sales</Link>
                     </li>
                     <li>
                       <Link href={`/sign-in`}>Log in</Link>

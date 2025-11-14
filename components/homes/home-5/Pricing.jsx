@@ -85,7 +85,7 @@ export default function Pricing() {
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500;"
               >
                 <Link
-                  href={`/page-pricing`}
+                  href={`/pricing`}
                   className="btn btn-md rounded-default bg-white dark:bg-gray-700 dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40 shadow-xs mt-1"
                 >
                   <span>Compare plans</span>

@@ -36,7 +36,7 @@ export default function Nav3() {
                           Discover our Products &amp; Solutions
                         </h5>
                         <Link
-                          href={`/page-features`}
+                          href={`/features`}
                           className="btn btn-sm dark:text-white"
                         >
                           <span>See what's new</span>
@@ -49,7 +49,7 @@ export default function Nav3() {
                         {features.map((feature, index) => (
                           <div key={index}>
                             <Link
-                              href={`/page-features`}
+                              href={`/features`}
                               className="hstack items-start gap-2 p-2 text-none rounded-1-5 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150"
                             >
                               <span className="icon">
@@ -223,7 +223,7 @@ export default function Nav3() {
                     </p>
                   </div>
                   <Link
-                    href={`/page-pricing`}
+                    href={`/pricing`}
                     className="btn btn-sm btn-primary"
                   >
                     Start free trial
@@ -291,7 +291,7 @@ export default function Nav3() {
                 <li>
                   <Link
                     className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-features`}
+                    href={`/features`}
                   >
                     <i className="icon-1 unicon-play fw-bold text-primary dark:text-secondary" />
                     <span className="vstack gap-narrow mt-nnarrow">
@@ -325,7 +325,7 @@ export default function Nav3() {
                 <li>
                   <Link
                     className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-contact`}
+                    href={`/contact`}
                   >
                     <i className="icon-1 unicon-headset fw-bold text-primary dark:text-secondary" />
                     <span className="vstack gap-narrow mt-nnarrow">
@@ -342,7 +342,7 @@ export default function Nav3() {
         </div>
       </li>
       <li>
-        <Link href={`/page-pricing`}>Pricing</Link>
+        <Link href={`/pricing`}>Pricing</Link>
       </li>
       <li>
         <a

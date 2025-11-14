@@ -87,7 +87,7 @@ export default function Header2() {
                 </div>
                 <Link
                   className="btn btn-sm btn-primary text-white text-none d-none lg:d-inline-flex"
-                  href={`/page-pricing`}
+                  href={`/pricing`}
                 >
                   Start free trial
                 </Link>

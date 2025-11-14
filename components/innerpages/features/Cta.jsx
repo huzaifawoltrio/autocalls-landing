@@ -14,7 +14,7 @@ export default function Cta() {
               </h2>
               <div className="vstack sm:hstack justify-center lg:justify-start gap-1 lg:gap-2 mt-1 lg:mt-2">
                 <Link
-                  href={`/page-pricing`}
+                  href={`/pricing`}
                   className="btn btn-md lg:btn-lg btn-primary text-white"
                 >
                   Try Lexend today

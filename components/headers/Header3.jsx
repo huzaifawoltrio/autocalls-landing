@@ -162,7 +162,7 @@ export default function Header3() {
               </ul>
               <Link
                 className="btn btn-sm btn-primary rounded-default text-white text-none d-none lg:d-inline-flex"
-                href={`/page-pricing`}
+                href={`/pricing`}
               >
                 Start free trial
               </Link>

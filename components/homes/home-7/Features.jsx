@@ -119,7 +119,7 @@ export default function Features() {
                               </a>
                             </div>
                             <Link
-                              href={`/page-features`}
+                              href={`/features`}
                               className="position-cover"
                             />
                           </div>

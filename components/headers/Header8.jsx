@@ -234,7 +234,7 @@ export default function Header8() {
                     <Link href={`/blog-sidebar`}>Blog</Link>
                   </li>
                   <li>
-                    <Link href={`/page-pricing-2`}>Pricing</Link>
+                    <Link href={`/pricing-2`}>Pricing</Link>
                   </li>
                   <li>
                     <Link href={`/page-integrations`}>Integrations</Link>
@@ -244,7 +244,7 @@ export default function Header8() {
               <div className="uc-navbar-right">
                 <Link
                   className="btn btn-md dark:text-white border border-dark dark:border-white dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent fs-5 lg:px-3 d-none lg:d-inline-flex rounded-pill"
-                  href={`/page-contact-2`}
+                  href={`/contact-2`}
                 >
                   Contact sales
                 </Link>

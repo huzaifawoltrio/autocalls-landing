@@ -46,13 +46,6 @@ export default function Features() {
                     </div>
                     <div className="panel vstack items-start gap-2 p-3 lg:p-4">
                       <h4 className="h4 m-0 text-inherit">{feature.title}</h4>
-                      <a
-                        href="#"
-                        className="btn btn-sm btn-primary border px-2 mt-2"
-                      >
-                        <span>Try it now</span>
-                        <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -81,13 +74,6 @@ export default function Features() {
                     <p className="fs-6 md:fs-5 lg:fs-4 m-0 xl:px-4 text-center">
                       Instantly answer customer support phone calls - zero waiting time, zero queue, zero customer frustrations. Real-time interaction with your systems and support procedure documents.
                     </p>
-                    <a
-                      href="#"
-                      className="btn btn-sm btn-primary border px-2 mt-2"
-                    >
-                      <span>Get started</span>
-                      <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
-                    </a>
                   </div>
                   <div className="panel min-h-200px md:min-h-250px xl:min-h-300px position-absolute bottom-0 start-0 end-0">
                     <video

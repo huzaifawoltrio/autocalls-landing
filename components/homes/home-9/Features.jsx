@@ -67,7 +67,7 @@ export default function Features() {
             >
               <div className="mb-2 lg:mb-3">
                 <Link
-                  href={`/page-pricing-2`}
+                  href={`/pricing-2`}
                   className="btn btn-md xl:btn-lg btn-primary border border-dark dark:border-white dark:border-opacity-15 px-3 lg:px-5 w-auto rounded-pill"
                 >
                   <span>Start your free trial</span>

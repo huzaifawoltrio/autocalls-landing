@@ -344,7 +344,7 @@ export const features6 = [
     title: "Seamless System Integration",
     description:
       "Connect CenterCall with your existing tools and workflows. Native integrations with CRMs, calendars, and business systems ensure your AI agents have real-time access to customer data and can take actions automatically.",
-    link: { text: "See all integrations", href: "/page-integrations" },
+    link: null,
   },
   {
     id: 3,

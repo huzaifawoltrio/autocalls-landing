@@ -2,12 +2,12 @@ export const footerLinks = [
   {
     links: [
       { href: "/page-about", label: "About" },
-      { href: "/page-pricing", label: "Pricing" },
-      { href: "/page-features", label: "Features" },
+      { href: "/pricing", label: "Pricing" },
+      { href: "/features", label: "Features" },
       { href: "/page-integrations", label: "Integrations" },
       { href: "/page-career", label: "Career" },
-      { href: "/page-contact", label: "Contact" },
-      { href: "/page-contact-2", label: "Contact v2" },
+      { href: "/contact", label: "Contact" },
+      { href: "/contact-2", label: "Contact v2" },
     ],
   },
   {
@@ -49,12 +49,12 @@ export const footerLinks2 = [
   {
     header: "Inner pages",
     links: [
-      { href: "/page-features", label: "Features" },
-      { href: "/page-pricing", label: "Pricing" },
+      { href: "/features", label: "Features" },
+      { href: "/pricing", label: "Pricing" },
       { href: "/page-about", label: "About" },
       { href: "/page-career", label: "Career" },
-      { href: "/page-contact", label: "Contact" },
-      { href: "/page-contact-2", label: "Contact v2" },
+      { href: "/contact", label: "Contact" },
+      { href: "/contact-2", label: "Contact v2" },
     ],
   },
   {
@@ -108,12 +108,12 @@ export const footerLinks3 = [
     title: "Product",
     links: [
       { href: "/page-about", label: "Product" },
-      { href: "/page-pricing", label: "Overview" },
-      { href: "/page-features", label: "Features" },
+      { href: "/pricing", label: "Overview" },
+      { href: "/features", label: "Features" },
       { href: "/page-integrations", label: "Solutions" },
       { href: "/page-career", label: "Tutorials" },
-      { href: "/page-contact", label: "Pricing" },
-      { href: "/page-contact-2", label: "Releases" },
+      { href: "/contact", label: "Pricing" },
+      { href: "/contact-2", label: "Releases" },
     ],
   },
   {
@@ -230,7 +230,7 @@ export const footerLinks5 = [
       { text: "Careers", href: "/page-career" },
       { text: "Press", href: "/blog-sidebar" },
       { text: "News", href: "/blog-sidebar" },
-      { text: "Contact", href: "/page-contact" },
+      { text: "Contact", href: "/contact" },
     ],
   },
   {
@@ -249,9 +249,9 @@ export const footerLinks5 = [
 export const footerLinks6 = [
   {
     links: [
-      { text: "Features", href: "/page-features", isLink: true },
-      { text: "Pricing", href: "/page-pricing", isLink: true },
-      { text: "Contact", href: "/page-contact", isLink: true },
+      { text: "Features", href: "/features", isLink: true },
+      { text: "Pricing", href: "/pricing", isLink: true },
+      { text: "Contact", href: "/contact", isLink: true },
       { text: "FAQ", href: "#faq", isLink: false },
     ],
   },
@@ -259,7 +259,7 @@ export const footerLinks6 = [
     links: [
       { text: "Sign Up", href: "https://app.centrecall.ai/register", isLink: false, external: true },
       { text: "Log In", href: "https://app.centrecall.ai/login", isLink: false, external: true },
-      { text: "Schedule Demo", href: "#", isLink: false },
+      { text: "Schedule Demo", href: "/demo", isLink: true },
     ],
     className: "d-none lg:d-block", // Additional class for the third section
   },

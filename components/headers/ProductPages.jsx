@@ -16,7 +16,7 @@ export default function ProductPages() {
           {section.items.map((item, itemIndex) => (
             <div key={itemIndex}>
               <Link
-                href={`/page-features`}
+                href={`/features`}
                 className="hstack items-start gap-2 text-none text-dark dark:text-white hover:text-primary-600 dark:hover:text-primary"
               >
                 <span className="icon rounded dark:bg-white">
@@ -37,7 +37,7 @@ export default function ProductPages() {
           ))}
           <div>
             <Link
-              href={`/page-features`}
+              href={`/features`}
               className="ltr:ms-6 rtl:me-6 text-none fs-8 text-dark dark:text-white hover:text-primary-600 dark:hover:text-primary"
             >
               <span className="border-bottom hover:border-primary duration-150">

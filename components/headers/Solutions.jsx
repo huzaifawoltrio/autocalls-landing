@@ -16,7 +16,7 @@ export default function Solutions() {
               <li key={itemIndex}>
                 <Link
                   className="hstack items-start gap-2"
-                  href={`/page-features`}
+                  href={`/features`}
                 >
                   <div className="cstack min-w-32px h-32px rounded bg-primary">
                     <i className={`icon-1 ${item.icon} text-dark`} />

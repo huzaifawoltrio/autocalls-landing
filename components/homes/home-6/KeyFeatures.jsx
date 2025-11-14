@@ -58,7 +58,7 @@ export default function KeyFeatures() {
                 <div>
                   <div className="features-item-more cstack gap-1 md:gap-2 flex-column">
                     <Link
-                      href={`/page-features`}
+                      href={`/features`}
                       className="uc-link w-40px md:w-48px lg:w-80px h-40px md:h-48px lg:h-80px rounded-circle cstack bg-secondary dark:bg-gray-800 text-primary dark:text-secondary"
                     >
                       <i className="icon icon-narrow md:icon-1 unicon-arrow-up-right fw-bold rtl:-rotate-90" />

@@ -43,12 +43,6 @@ export default function Tools() {
                   </div>
                 ))}
               </div>
-              <Link
-                href={`/page-integrations`}
-                className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
-              >
-                Browse all integrations
-              </Link>
             </div>
           </div>
         </div>

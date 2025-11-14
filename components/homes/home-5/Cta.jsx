@@ -28,7 +28,7 @@ export default function Cta() {
                   <span>Get a demo</span>
                 </a>
                 <Link
-                  href={`/page-pricing`}
+                  href={`/pricing`}
                   className="btn btn-md btn-primary rounded-default text-white shadow-xs"
                 >
                   Start a free trial

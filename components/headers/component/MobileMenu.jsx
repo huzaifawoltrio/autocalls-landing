@@ -40,10 +40,10 @@ export default function MobileMenu() {
   // Menu items for filtering
   const menuItems = [
     { label: "Home", href: "/", keywords: ["home", "main", "start"] },
-    { label: "Pricing", href: "/page-pricing", keywords: ["pricing", "plans", "cost", "price"] },
-    { label: "Features", href: "/page-features", keywords: ["features", "capabilities", "functions"] },
-    { label: "Demo", href: "/page-demo", keywords: ["demo", "demonstration", "preview"] },
-    { label: "Contact Us", href: "/page-contact", keywords: ["contact", "support", "help", "reach"] },
+    { label: "Pricing", href: "/pricing", keywords: ["pricing", "plans", "cost", "price"] },
+    { label: "Features", href: "/features", keywords: ["features", "capabilities", "functions"] },
+    { label: "Demo", href: "/demo", keywords: ["demo", "demonstration", "preview"] },
+    { label: "Contact Us", href: "/contact", keywords: ["contact", "support", "help", "reach"] },
   ];
 
   const authItems = [

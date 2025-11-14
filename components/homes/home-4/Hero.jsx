@@ -45,7 +45,7 @@ export default function Hero() {
                     </div>
                     <div className="col-12 sm:col-auto">
                       <Link
-                        href={`/page-pricing`}
+                        href={`/pricing`}
                         className="btn btn-md btn-primary rounded-default h-48px w-100 lg:min-w-150px text-white"
                       >
                         <span className="d-none md:d-block">

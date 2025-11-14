@@ -91,7 +91,7 @@ export default function Cta() {
                 Schedule a personalized demo and see CenterCall in action.
               </p>
               <Link
-                href={`/page-contact`}
+                href={`/contact`}
                 className="btn btn-md lg:btn-lg btn-primary text-white mt-1 xl:mt-2"
               >
                 Schedule a Demo

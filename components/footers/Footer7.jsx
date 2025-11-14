@@ -21,7 +21,7 @@ export default function Footer7() {
                       <div>
                         <Link
                           className="panel text-none"
-                          href={`/home-8`}
+                          href={`/`}
                           style={{ width: 280 }}
                         >
                           <Image

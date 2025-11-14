@@ -120,7 +120,7 @@ export default function Hero() {
                       data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;"
                     >
                       <Link
-                        href={`/page-pricing`}
+                        href={`/pricing`}
                         className="btn btn-md btn-outline-primary dark:border-tertiary dark:text-tertiary dark:hover:bg-tertiary dark:hover:text-primary-700 border-2 px-3 w-auto"
                       >
                         <i className="icon-narrow unicon-chat-launch fw-bold" />

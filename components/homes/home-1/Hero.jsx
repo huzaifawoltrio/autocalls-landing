@@ -173,7 +173,7 @@ export default function Hero() {
                       of any complexity
                     </h1>
                     <Link
-                      href={`/page-pricing`}
+                      href={`/pricing`}
                       className="btn btn-md lg:btn-lg btn-primary text-white min-w-150px sm:mt-1 lg:mt-2"
                     >
                       Try it out
