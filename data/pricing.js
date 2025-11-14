@@ -186,7 +186,7 @@ export const tiers3 = [
     yearlyPrice: "$81",
     priceDetails: "Per month",
     linkText: "Purchase plan",
-    linkUrl: "#",
+    linkUrl: "https://app.centrecall.ai/plans",
     linkSubtext: "",
     features: [
       "120 included minutes, then $0.60 / extra minute",
@@ -213,7 +213,7 @@ export const tiers3 = [
     yearlyPrice: "$321",
     priceDetails: "Per month",
     linkText: "Purchase plan",
-    linkUrl: "#",
+    linkUrl: "https://app.centrecall.ai/plans",
     linkSubtext: "",
     features: [
       "700 included minutes, then $0.48 / extra minute",
@@ -240,7 +240,7 @@ export const tiers3 = [
     yearlyPrice: "$661",
     priceDetails: "Per month",
     linkText: "Purchase plan",
-    linkUrl: "#",
+    linkUrl: "https://app.centrecall.ai/plans",
     linkSubtext: "",
     features: [
       "1700 included minutes, then $0.29 / extra minute",
@@ -267,7 +267,7 @@ export const tiers3 = [
     yearlyPrice: "Custom",
     priceDetails: "Contact us for pricing",
     linkText: "Contact us",
-    linkUrl: "#",
+    linkUrl: "https://app.centrecall.ai/plans",
     linkSubtext: "",
     features: [
       "Custom minute packages tailored to your needs",
@@ -312,7 +312,7 @@ export const pricingPlans3 = [
       "Custom Dashboards",
     ],
     included: [true, true, true, true, true, true, true, true, true, true, true, true, true, true],
-    link: "#",
+    link: "https://app.centrecall.ai/plans",
     buttonClass: "btn-ghost-tertiary",
   },
   {
@@ -337,7 +337,7 @@ export const pricingPlans3 = [
       "Custom Dashboards",
     ],
     included: [true, true, true, true, true, true, true, true, true, true, true, true, true, true],
-    link: "#",
+    link: "https://app.centrecall.ai/plans",
     buttonClass: "btn-primary",
   },
   {
@@ -362,7 +362,7 @@ export const pricingPlans3 = [
       "Custom Dashboards",
     ],
     included: [true, true, true, true, true, true, true, true, true, true, true, true, true, true],
-    link: "#",
+    link: "https://app.centrecall.ai/plans",
     buttonClass: "btn-ghost-tertiary",
   },
   {
@@ -387,7 +387,7 @@ export const pricingPlans3 = [
       "Custom Dashboards",
     ],
     included: [true, true, true, true, true, true, true, true, true, true, true, true, true, true],
-    link: "#",
+    link: "https://app.centrecall.ai/plans",
     buttonClass: "btn-ghost-tertiary",
     buttonText: "Contact us",
   },
