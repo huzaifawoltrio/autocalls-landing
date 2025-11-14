@@ -257,21 +257,9 @@ export const footerLinks6 = [
   },
   {
     links: [
-      { text: "Inbound Calls", href: "#main_features", isLink: false },
-      { text: "Outbound Campaigns", href: "#key_features", isLink: false },
-      { text: "Appointment Scheduling", href: "#main_features", isLink: false },
-      { text: "Voice Cloning", href: "#main_features", isLink: false },
-      { text: "Multi-Language", href: "#main_features", isLink: false },
-    ],
-  },
-  {
-    links: [
       { text: "Sign Up", href: "https://app.centrecall.ai/register", isLink: false, external: true },
       { text: "Log In", href: "https://app.centrecall.ai/login", isLink: false, external: true },
       { text: "Schedule Demo", href: "#", isLink: false },
-      { text: "Support", href: "/page-contact", isLink: true },
-      { text: "Privacy Policy", href: "#", isLink: false },
-      { text: "Terms of Service", href: "#", isLink: false },
     ],
     className: "d-none lg:d-block", // Additional class for the third section
   },

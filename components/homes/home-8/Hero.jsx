@@ -48,7 +48,7 @@ export default function Hero() {
                       data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;"
                     >
                       <a
-                        href="#"
+                        href="https://app.centrecall.ai/"
                         className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
                       >
                         <span>Create your agent in 60 seconds</span>

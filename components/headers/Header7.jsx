@@ -107,10 +107,10 @@ export default function Header7() {
                   Sign up
                 </a>
                 <a
-                  className="btn btn-md btn-tertiary w-48px h-48px d-inline-flex lg:d-none"
+                  className="btn btn-md btn-primary w-48px h-48px d-inline-flex lg:d-none"
                   onClick={openMobileMenu}
                 >
-                  <i className="icon icon-2 unicon-menu" />
+                  <i className="icon icon-2 unicon-menu text-white" />
                 </a>
               </div>
             </div>

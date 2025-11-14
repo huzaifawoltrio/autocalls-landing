@@ -4,13 +4,14 @@ import { closeMobileMenu } from "@/utlis/toggleMobileMenu";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function MobileMenu() {
   const { isDark, handleToggle } = useContextElement();
   const pathname = usePathname();
   const elementRef = useRef(null);
   const containerRef = useRef(null);
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -33,7 +34,41 @@ export default function MobileMenu() {
   }, []);
   useEffect(() => {
     closeMobileMenu();
+    setSearchQuery(""); // Clear search when navigating
   }, [pathname]);
+
+  // Menu items for filtering
+  const menuItems = [
+    { label: "Home", href: "/", keywords: ["home", "main", "start"] },
+    { label: "Pricing", href: "/page-pricing", keywords: ["pricing", "plans", "cost", "price"] },
+    { label: "Features", href: "/page-features", keywords: ["features", "capabilities", "functions"] },
+    { label: "Demo", href: "/page-demo", keywords: ["demo", "demonstration", "preview"] },
+    { label: "Contact Us", href: "/page-contact", keywords: ["contact", "support", "help", "reach"] },
+  ];
+
+  const authItems = [
+    { label: "Log in", href: "https://app.centrecall.ai/login", external: true, keywords: ["login", "sign in", "access"] },
+    { label: "Sign up", href: "https://app.centrecall.ai/register", external: true, keywords: ["signup", "register", "join", "create account"] },
+  ];
+
+  // Filter menu items based on search query
+  const filteredMenuItems = menuItems.filter(item => {
+    if (!searchQuery.trim()) return true;
+    const query = searchQuery.toLowerCase();
+    return (
+      item.label.toLowerCase().includes(query) ||
+      item.keywords.some(keyword => keyword.includes(query))
+    );
+  });
+
+  const filteredAuthItems = authItems.filter(item => {
+    if (!searchQuery.trim()) return true;
+    const query = searchQuery.toLowerCase();
+    return (
+      item.label.toLowerCase().includes(query) ||
+      item.keywords.some(keyword => keyword.includes(query))
+    );
+  });
 
   return (
     <div
@@ -82,9 +117,11 @@ export default function MobileMenu() {
             data-uc-sticky=""
           >
             <input
-              type="email"
+              type="text"
               className="form-control form-control-sm fs-7 rounded-default"
-              placeholder="Search.."
+              placeholder="Search menu..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
             />
             <span className="form-icon text-gray">
               <i className="unicon-search icon-1" />
@@ -96,65 +133,35 @@ export default function MobileMenu() {
             hidden=""
           />
           <ul className="nav-y gap-narrow fw-medium fs-6 uc-nav" data-uc-nav="">
-            <li>
-              <Link
-                className={pathname === "/" ? "menuActive" : ""}
-                href={`/`}
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                className={pathname === "/page-pricing" ? "menuActive" : ""}
-                href={`/page-pricing`}
-              >
-                Pricing
-              </Link>
-            </li>
-            <li>
-              <Link
-                className={pathname === "/page-features" ? "menuActive" : ""}
-                href={`/page-features`}
-              >
-                Features
-              </Link>
-            </li>
-            <li>
-              <Link
-                className={pathname === "#" ? "menuActive" : ""}
-                href={`#`}
-              >
-                Demo
-              </Link>
-            </li>
-            <li>
-              <Link
-                className={pathname === "/page-contact" ? "menuActive" : ""}
-                href={`/page-contact`}
-              >
-                Contact Us
-              </Link>
-            </li>
-            <li className="hr opacity-10 my-1" />
-            <li>
-              <a
-                href="https://app.centrecall.ai/login"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Log in
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://app.centrecall.ai/register"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Sign up
-              </a>
-            </li>
+            {filteredMenuItems.length === 0 && filteredAuthItems.length === 0 && searchQuery.trim() && (
+              <li className="text-gray-500 px-2 py-2">
+                No results found for "{searchQuery}"
+              </li>
+            )}
+            {filteredMenuItems.map((item) => (
+              <li key={item.href}>
+                <Link
+                  className={pathname === item.href ? "menuActive" : ""}
+                  href={item.href}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+            {filteredMenuItems.length > 0 && filteredAuthItems.length > 0 && (
+              <li className="hr opacity-10 my-1" />
+            )}
+            {filteredAuthItems.map((item) => (
+              <li key={item.href}>
+                <a
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
           </ul>
 
           <div
