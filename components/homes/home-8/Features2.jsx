@@ -250,6 +250,12 @@ export default function Features2() {
                 >
                   <span>Start your free trial</span>
                 </Link>
+                <Link
+                  href={`/features`}
+                  className="btn btn-md xl:btn-lg bg-white bg-opacity-10 text-white border border-white border-opacity-20 px-4 lg:px-6 hover:bg-opacity-20 transition-all"
+                >
+                  <span>View all features</span>
+                </Link>
               </div>
             </div>
           </div>
