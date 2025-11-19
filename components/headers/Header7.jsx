@@ -59,13 +59,14 @@ export default function Header7() {
                   <Link
                     className="panel text-none"
                     href={`/`}
-                    style={{ width: 190 }}
+                    style={{ width: 140, maxWidth: '140px' }}
                   >
                     <Image
                       alt="CenterCall"
                       src="/assets/images/CentreCall.svg"
                       width={300}
                       height={78}
+                      style={{ width: '100%', height: 'auto' }}
                     />
                   </Link>
                 </div>
@@ -89,9 +90,9 @@ export default function Header7() {
                   </li>
                 </ul>
               </div>
-              <div className="uc-navbar-right">
+              <div className="uc-navbar-right gap-2">
                 <a
-                  className="uc-link fs-5 text-dark hover:text-primary transition-colors duration-150"
+                  className="uc-link fs-6 lg:fs-5 text-dark hover:text-primary transition-colors duration-150 text-nowrap"
                   href="https://app.centrecall.ai/login"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -107,7 +108,7 @@ export default function Header7() {
                   Sign up
                 </a>
                 <a
-                  className="btn btn-md btn-primary w-48px h-48px d-inline-flex lg:d-none"
+                  className="btn btn-sm btn-primary w-40px h-40px d-inline-flex lg:d-none flex-shrink-0"
                   onClick={openMobileMenu}
                 >
                   <i className="icon icon-2 unicon-menu text-white" />

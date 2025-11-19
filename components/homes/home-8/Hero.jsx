@@ -49,7 +49,8 @@ export default function Hero() {
                     >
                       <a
                         href="https://app.centrecall.ai/"
-                        className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
+                        className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto text-center"
+                        style={{ whiteSpace: 'normal', lineHeight: '1.4' }}
                       >
                         <span>Create your agent in 60 seconds</span>
                       </a>
