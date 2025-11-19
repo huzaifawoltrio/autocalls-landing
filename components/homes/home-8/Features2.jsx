@@ -151,6 +151,24 @@ export default function Features2() {
             grid-template-columns: repeat(3, 1fr);
           }
         }
+        
+        .cta-buttons {
+          display: flex;
+          flex-direction: column;
+          gap: 0.75rem;
+          width: 100%;
+        }
+        
+        @media (min-width: 640px) {
+          .cta-buttons {
+            flex-direction: row;
+            width: auto;
+          }
+          
+          .cta-buttons a {
+            width: auto !important;
+          }
+        }
       `}</style>
       
       <div className="section-outer panel py-6 md:py-8 xl:py-10 lg:mx-2 lg:rounded-2 bg-tertiary-700 text-white text-opacity-70">
@@ -234,18 +252,21 @@ export default function Features2() {
             </div>
             
             <div
-              className="pre-cta vstack items-center gap-3 max-w-600px mx-auto text-center mt-8 xl:mt-12"
+              className="pre-cta vstack items-center gap-3 max-w-600px mx-auto text-center mt-8 xl:mt-12 px-3"
               data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <p className="fs-6 text-white text-opacity-80 m-0">
                 Ready to transform your customer communications?
               </p>
-              <div className="hstack gap-3 flex-wrap justify-center">
+              <div className="cta-buttons">
                 <Link
                   href={`/pricing`}
                   className="btn btn-md xl:btn-lg btn-primary border-0 px-4 lg:px-6 shadow-lg hover:shadow-xl transition-all"
                   style={{
                     background: 'linear-gradient(135deg, #006BDB, #9333EA)',
+                    width: '100%',
+                    maxWidth: '280px',
+                    margin: '0 auto'
                   }}
                 >
                   <span>Start your free trial</span>
@@ -253,6 +274,11 @@ export default function Features2() {
                 <Link
                   href={`/features`}
                   className="btn btn-md xl:btn-lg bg-white bg-opacity-10 text-white border border-white border-opacity-20 px-4 lg:px-6 hover:bg-opacity-20 transition-all"
+                  style={{
+                    width: '100%',
+                    maxWidth: '280px',
+                    margin: '0 auto'
+                  }}
                 >
                   <span>View all features</span>
                 </Link>

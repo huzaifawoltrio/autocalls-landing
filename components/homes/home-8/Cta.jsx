@@ -113,7 +113,10 @@ export default function Cta() {
                 <div className="mb-2 lg:mb-3">
                   <a
                     href="https://app.centrecall.ai/"
-                    className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
+                    className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5"
+                    style={{ 
+                      whiteSpace: 'nowrap'
+                    }}
                   >
                     <span>Create your agent in 60 seconds</span>
                   </a>
