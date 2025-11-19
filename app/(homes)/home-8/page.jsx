@@ -30,8 +30,8 @@ export default function page() {
               <VideoSection />
               <Features />
               <Tools />
-              <Features2 />
               <Pricing />
+              <Features2 />
               <Faqs />
               <Cta />
             </div>
